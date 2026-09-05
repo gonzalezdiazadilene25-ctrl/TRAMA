@@ -113,6 +113,19 @@ export default async function TemaPage({
         </section>
       )}
 
+      {tema.caracteristicas && (
+        <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
+            Características
+          </h2>
+          <ul className="list-inside list-disc space-y-1 text-trama-texto">
+            {tema.caracteristicas.map((c) => (
+              <li key={c}>{c}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {tema.fuentePendiente && (
         <p className="mb-5 text-xs text-trama-gris">
           Fuente bibliográfica exacta pendiente de registrar.

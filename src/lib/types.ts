@@ -33,6 +33,7 @@ export interface Tema {
   composicionNota?: string;
   fichaTecnica?: FichaTecnicaItem[];
   fichaTecnicaPendiente?: boolean;
+  caracteristicas?: string[];
   fuentePendiente?: boolean;
 }
 

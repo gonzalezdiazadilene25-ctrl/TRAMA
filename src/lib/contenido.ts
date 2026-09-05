@@ -1,10 +1,12 @@
 import fibrasNaturales from "@/data/contenido/fibras-naturales.json";
 import fibrasQuimicas from "@/data/contenido/fibras-quimicas.json";
+import tejidosCaladaJacquard from "@/data/contenido/fundamentos-de-tejidos-de-calada-y-jacquard.json";
 import type { UnidadContenido } from "@/lib/types";
 
 const contenidoPorUnidad: Record<string, UnidadContenido> = {
   "fibras-naturales": fibrasNaturales as UnidadContenido,
   "fibras-quimicas": fibrasQuimicas as UnidadContenido,
+  "fundamentos-de-tejidos-de-calada-y-jacquard": tejidosCaladaJacquard as UnidadContenido,
 };
 
 export function getContenidoUnidad(slugUnidad: string): UnidadContenido | undefined {

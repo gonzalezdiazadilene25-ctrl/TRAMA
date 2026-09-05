@@ -1,0 +1,58 @@
+{
+  "unidad": "Fundamentos de tejidos de calada y Jacquard",
+  "temas": [
+    {
+      "slug": "urdimbre-y-trama",
+      "titulo": "Urdimbre y trama",
+      "definicion": "En un tejido de calada, la tela se forma por el entrecruzamiento perpendicular de dos sistemas de hilos: la urdimbre, que corre a lo largo del tejido y se monta en el telar antes de tejer, y la trama, que se inserta transversalmente, hilo por hilo, cruzando por encima y por debajo de los hilos de urdimbre.",
+      "caracteristicas": [
+        "La urdimbre debe soportar la tensión del telar durante todo el proceso, por lo que suele usarse un hilo más resistente.",
+        "La trama se inserta con la lanzadera, la pinza o el proyectil, según el tipo de telar.",
+        "El patrón de cruce entre urdimbre y trama define el ligamento del tejido (tafetán, sarga, satén, etc.)."
+      ]
+    },
+    {
+      "slug": "tafetan",
+      "titulo": "Tafetán",
+      "nombreCientifico": "Ligamento plano",
+      "definicion": "Es el ligamento más simple y el de mayor entrecruzamiento entre urdimbre y trama: cada hilo de trama pasa alternadamente por encima y por debajo de cada hilo de urdimbre, formando el patrón más básico y compacto de un tejido plano.",
+      "caracteristicas": [
+        "Es el ligamento con más puntos de unión entre urdimbre y trama, lo que le da alta estabilidad y resistencia al deslizamiento de los hilos.",
+        "Produce una superficie plana, sin relieve diagonal ni brillo marcado.",
+        "Se usa en telas como la manta, la popelina y el percal."
+      ]
+    },
+    {
+      "slug": "sarga",
+      "titulo": "Sarga",
+      "nombreCientifico": "Ligamento diagonal",
+      "definicion": "Ligamento identificado por líneas diagonales visibles en la superficie del tejido, producidas porque cada hilo de trama pasa por encima de dos o más hilos de urdimbre antes de pasar por debajo, desplazando el punto de cruce un hilo hacia un lado en cada pasada.",
+      "caracteristicas": [
+        "Tiene menos puntos de entrecruzamiento que el tafetán, lo que permite tejidos más densos y con mejor caída.",
+        "La diagonal puede orientarse hacia la derecha o hacia la izquierda según el tipo de sarga.",
+        "Se usa en telas como la mezclilla (denim) y la gabardina."
+      ]
+    },
+    {
+      "slug": "saten",
+      "titulo": "Satén (raso)",
+      "nombreCientifico": "Ligamento satinado",
+      "definicion": "Ligamento que concentra los puntos de entrecruzamiento en zonas muy separadas y distribuidas de forma que no forman una línea diagonal visible, dejando largos flotantes de hilo en la superficie que producen un brillo característico.",
+      "caracteristicas": [
+        "Los pocos puntos de unión hacen que sea el ligamento fundamental menos resistente al desgaste y al deslizamiento de los hilos.",
+        "El brillo se debe a que los flotantes reflejan más luz que un cruce frecuente.",
+        "Se usa en telas como el satén y el damasco."
+      ]
+    },
+    {
+      "slug": "jacquard",
+      "titulo": "Jacquard",
+      "definicion": "Mecanismo de control individual de cada hilo de urdimbre, inventado por Joseph Marie Jacquard a principios del siglo XIX, que permite tejer patrones grandes y complejos (figuras, no solo ligamentos geométricos repetitivos) controlando cada hilo de forma independiente en lugar de por grupos, como ocurre en un telar convencional.",
+      "caracteristicas": [
+        "El mecanismo se controla mediante un sistema de tarjetas perforadas (en telares históricos) o de control electrónico (en telares modernos), donde cada perforación o dato indica si un hilo de urdimbre sube o baja.",
+        "Permite combinar distintos ligamentos (tafetán, sarga, satén) dentro de un mismo diseño para formar figuras.",
+        "Se usa en tejidos como el damasco, el brocado y otros textiles con motivos decorativos complejos."
+      ]
+    }
+  ]
+}
