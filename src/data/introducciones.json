@@ -1,0 +1,197 @@
+{
+  "carrera": {
+    "id": "intro-carrera",
+    "titulo": "Ingeniería Textil",
+    "subtitulo": "Escuela Superior de Ingeniería Textil · Instituto Politécnico Nacional · Plan 2018",
+    "entrada": "La Ingeniería Textil no es diseño de moda ni un curso largo de costura. Es la ingeniería de una cadena de transformación: convertir una fibra en un hilo, un hilo en una tela, una tela en un producto terminado, y hacerlo con procesos controlados, maquinaria, química y control de calidad de por medio.",
+    "secciones": [
+      {
+        "titulo": "La cadena que organiza toda la carrera",
+        "tipo": "cadena",
+        "pasos": [
+          { "nombre": "Fibra", "descripcion": "Materia prima natural o química. Se estudia su origen, composición y propiedades." },
+          { "nombre": "Hilo", "descripcion": "La fibra se limpia, paraleliza, estira y tuerce hasta formar un cuerpo cilíndrico continuo." },
+          { "nombre": "Tejido", "descripcion": "Los hilos se entrelazan en telares de calada, Jacquard o máquinas de punto." },
+          { "nombre": "Acabado", "descripcion": "La tela se pretrata, tiñe, estampa y recibe acabados funcionales." },
+          { "nombre": "Confección", "descripcion": "El tejido se corta y ensambla en un producto terminado." }
+        ],
+        "cierre": "Cada semestre de la carrera cae en algún punto de esta cadena, o construye las ciencias necesarias para entenderla."
+      },
+      {
+        "titulo": "Cómo está organizada",
+        "tipo": "datos",
+        "datos": [
+          { "etiqueta": "Duración ideal", "valor": "9 semestres · 4.5 años" },
+          { "etiqueta": "Créditos", "valor": "420" },
+          { "etiqueta": "Unidades de aprendizaje", "valor": "Cerca de 60" },
+          { "etiqueta": "Modalidad", "valor": "Escolarizada, con laboratorios y talleres" },
+          { "etiqueta": "Trayectorias profesionales", "valor": "4 (Hilados, Tejidos, Acabados, Confección)" },
+          { "etiqueta": "Eje optativo", "valor": "7.º y 8.º semestre" }
+        ]
+      },
+      {
+        "titulo": "Las tres etapas",
+        "tipo": "etapas",
+        "etapas": [
+          { "rango": "1.º y 2.º", "nombre": "Cimentación", "texto": "Matemáticas, física, programación y los primeros fundamentos textiles: fibras y tejidos. Lo que quede flojo aquí cobra intereses después." },
+          { "rango": "3.º y 4.º", "nombre": "Núcleo duro", "texto": "Química, fisicoquímica, mecánica, termodinámica y estadística empiezan a mezclarse con hilatura y manufactura." },
+          { "rango": "5.º a 9.º", "nombre": "Especialización", "texto": "Comienza la trayectoria profesional, se suman gestión, calidad, automatización y normatividad, y se cierra con investigación, metrología y proyecto." }
+        ]
+      },
+      {
+        "titulo": "La decisión que no tiene regreso",
+        "tipo": "aviso",
+        "texto": "La trayectoria profesional se elige para continuarla desde sexto semestre y la ESIT indica expresamente que no se permiten cambios posteriores. Son doce unidades de aprendizaje de 5.º a 9.º. Conviene investigar las cuatro desde primer año, no al final del cuarto semestre.",
+        "accion": { "texto": "Comparar las cuatro trayectorias", "destino": "/trayectorias" }
+      },
+      {
+        "titulo": "Cómo funciona esta aplicación",
+        "tipo": "pasos",
+        "pasos": [
+          "Cada semestre tiene su color y su imagen. Entra al que estás cursando o al que quieras adelantar.",
+          "Dentro de cada semestre están sus unidades de aprendizaje, con el temario oficial completo y sus criterios de evaluación.",
+          "Cada tema abre con su imagen, definición, composición y ficha técnica.",
+          "Puedes agregar tus apuntes de clase a cualquier tema y pedir un resumen que combine ambos.",
+          "Al terminar, el examen de práctica te dice qué quedó débil."
+        ]
+      },
+      {
+        "titulo": "De dónde sale el contenido",
+        "tipo": "procedencia",
+        "texto": "Cada tema indica su procedencia. Lo marcado como oficial proviene del programa de estudios o del temario entregado por la docente. Lo marcado como ampliación tiene fuente bibliográfica pero no está literal en el temario. Lo que está por confirmar aparece señalado y no se usa para generar exámenes."
+      }
+    ]
+  },
+  "semestres": [
+    {
+      "id": "s01",
+      "titulo": "Primer semestre",
+      "eje": "Fibras naturales y ciencias básicas",
+      "entrada": "El semestre de la cimentación. Por un lado empiezas la cadena textil por su origen: la fibra y el tejido de calada. Por el otro construyes las matemáticas y la física que van a sostener los ocho semestres siguientes.",
+      "que_aprendes": [
+        "Qué es una fibra textil, cómo se clasifican y cómo se identifican en laboratorio.",
+        "La teoría de tejidos: ligamentos fundamentales, derivados y las partes de un telar.",
+        "Límites, derivadas e integrales, y su aplicación a problemas de ingeniería.",
+        "Vectores, cinemática, dinámica, trabajo y energía.",
+        "Qué hace un ingeniero textil y cuál es su responsabilidad ética."
+      ],
+      "prioridad": "Cálculo, álgebra, física y programación. Son la base de todo lo demás.",
+      "conexion_siguiente": "Fibras naturales continúa en Fibras químicas; tejidos de calada continúa en tejidos de punto; cálculo continúa en cálculo vectorial."
+    },
+    {
+      "id": "s02",
+      "titulo": "Segundo semestre",
+      "eje": "Fibras químicas y tejido de punto",
+      "entrada": "Continúa lo empezado en primero. Las fibras dejan de ser naturales y pasan a ser fabricadas; el tejido deja de ser plano y pasa a ser de punto. Las matemáticas se vuelven vectoriales y aparece la electricidad.",
+      "que_aprendes": [
+        "Fibras químicas: obtención, extrusión y propiedades.",
+        "Tejido de punto: estructura, máquinas y parámetros.",
+        "Métodos de confección.",
+        "Cálculo vectorial, electricidad y magnetismo.",
+        "Habilidades y técnicas de comunicación."
+      ],
+      "prioridad": "Cálculo vectorial y electricidad. Son prerrequisito de mecánica de fluidos y de electromecánica.",
+      "conexion_siguiente": "Prepara química textil, hilatura y electromecánica de tercero."
+    },
+    {
+      "id": "s03",
+      "titulo": "Tercer semestre",
+      "eje": "Química textil e hilatura de algodón",
+      "entrada": "Empieza el núcleo duro. Entra la química por primera vez con peso propio y arranca la hilatura, que es el paso de fibra a hilo. También aparecen los no tejidos y la manufactura de prendas.",
+      "que_aprendes": [
+        "Química textil básica y su aplicación a fibras y procesos.",
+        "Hilatura de algodón: apertura, cardado, estirado, torsión.",
+        "Fundamentos de no tejidos y de manufactura de prendas.",
+        "Electromecánica, electrónica, mecánica de fluidos y ecuaciones diferenciales.",
+        "Desarrollo y liderazgo."
+      ],
+      "prioridad": "Ecuaciones diferenciales y mecánica de fluidos: son las que más se atoran.",
+      "conexion_siguiente": "Fisicoquímica, termodinámica e hilatura de fibras químicas en cuarto."
+    },
+    {
+      "id": "s04",
+      "titulo": "Cuarto semestre",
+      "eje": "Fisicoquímica y máquinas de confección",
+      "entrada": "El semestre donde ciencia y aplicación industrial terminan de mezclarse. Es también el último antes de elegir trayectoria, así que conviene llegar con las cuatro especialidades ya investigadas.",
+      "que_aprendes": [
+        "Fisicoquímica textil y química aplicada a la ingeniería textil.",
+        "Hilatura de fibras químicas.",
+        "Máquinas, equipos y sistemas de confección.",
+        "Diseño de mecanismos por computadora y fundamentos de termodinámica.",
+        "Probabilidad, estadística e ingeniería económica."
+      ],
+      "prioridad": "Probabilidad y estadística, porque sostiene todo el control de calidad posterior.",
+      "conexion_siguiente": "Aquí termina el tronco común. En quinto comienza la trayectoria elegida."
+    },
+    {
+      "id": "s05",
+      "titulo": "Quinto semestre",
+      "eje": "Planta industrial y arranque de trayectoria",
+      "entrada": "El semestre con mayor carga de créditos de toda la carrera. Cursas la primera unidad de tu trayectoria y entra todo lo que rodea a una planta textil: climatización, seguridad, relaciones industriales y costos.",
+      "que_aprendes": [
+        "Primera unidad de la trayectoria elegida.",
+        "Gestión ambiental y tecnologías limpias.",
+        "Aire acondicionado y refrigeración aplicados a planta textil.",
+        "Cinemática de las máquinas.",
+        "Higiene y seguridad industrial, relaciones industriales y contabilidad industrial."
+      ],
+      "prioridad": "Organizar bien el tiempo: es el semestre más cargado, con 53 créditos.",
+      "conexion_siguiente": "La trayectoria continúa con dos unidades más en sexto."
+    },
+    {
+      "id": "s06",
+      "titulo": "Sexto semestre",
+      "eje": "Reología y procesos de especialidad",
+      "entrada": "La trayectoria toma el centro con dos unidades más. Alrededor aparecen reología, programación orientada a objetos, costos y legislación aduanera.",
+      "que_aprendes": [
+        "Segunda y tercera unidad de la trayectoria.",
+        "Reología aplicada a los textiles.",
+        "Programación orientada a objetos.",
+        "Sistemas de costos y legislación aduanera."
+      ],
+      "prioridad": "La trayectoria. A partir de aquí la especialidad manda.",
+      "conexion_siguiente": "En séptimo se suman el eje optativo y tres unidades más de trayectoria."
+    },
+    {
+      "id": "s07",
+      "titulo": "Séptimo semestre",
+      "eje": "Nanotecnología y automatización",
+      "entrada": "Tres unidades de trayectoria al mismo tiempo, más la primera del eje optativo. Entran los temas de frontera: nanotecnología y automatización de procesos.",
+      "que_aprendes": [
+        "Cuarta, quinta y sexta unidad de la trayectoria.",
+        "Primera unidad del eje optativo elegido.",
+        "Nanotecnología aplicada a textiles.",
+        "Automatización de procesos y sistemas de gestión de calidad."
+      ],
+      "prioridad": "El eje optativo se elige aquí y continúa en octavo. Se eligen los dos del mismo eje.",
+      "conexion_siguiente": "Octavo es el semestre más especializado de la carrera."
+    },
+    {
+      "id": "s08",
+      "titulo": "Octavo semestre",
+      "eje": "Producción y control",
+      "entrada": "Cuatro unidades de trayectoria en un solo semestre. Es el punto más especializado del plan, acompañado de programación y control de la producción.",
+      "que_aprendes": [
+        "Séptima, octava, novena y décima unidad de la trayectoria.",
+        "Segunda unidad del eje optativo.",
+        "Programación y control de la producción."
+      ],
+      "prioridad": "La carga es casi toda de especialidad. Aquí se define tu perfil profesional real.",
+      "conexion_siguiente": "Noveno cierra con investigación, metrología y proyecto."
+    },
+    {
+      "id": "s09",
+      "titulo": "Noveno semestre",
+      "eje": "Metrología, investigación y proyecto",
+      "entrada": "El cierre. Se integra todo lo anterior en un proyecto de trayectoria, con metrología y seminario de investigación como soporte metodológico.",
+      "que_aprendes": [
+        "Undécima y duodécima unidad de la trayectoria.",
+        "Procesos textiles.",
+        "Metrología, normalización y ensayos textiles.",
+        "Seminario de investigación."
+      ],
+      "prioridad": "El proyecto final pesa. En 2025 la ESIT reportó proyectos de noveno vinculados con las cuatro trayectorias.",
+      "conexion_siguiente": null
+    }
+  ]
+}

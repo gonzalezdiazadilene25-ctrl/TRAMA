@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getSemestre, semestres } from "@/lib/data";
+import { getSemestreIntro } from "@/lib/introducciones";
 import { slugify } from "@/lib/slug";
 
 export function generateStaticParams() {
@@ -23,6 +24,8 @@ export default async function SemestrePage({
   const { numero } = await params;
   const semestre = getSemestre(Number(numero));
   if (!semestre) notFound();
+
+  const intro = getSemestreIntro(semestre.numero);
 
   return (
     <div>
@@ -57,9 +60,40 @@ export default async function SemestrePage({
           <p className="mt-1 text-sm text-white/80">
             {semestre.creditos} créditos · {semestre.porcentaje}% del total de la carrera
           </p>
-          <p className="mt-3">{semestre.enfoque}</p>
+          <p className="mt-3 font-medium">{intro?.eje ?? semestre.enfoque}</p>
         </div>
       </div>
+
+      {intro && (
+        <>
+          <p className="mb-5 text-trama-texto">{intro.entrada}</p>
+
+          <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
+            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
+              Qué aprendes
+            </h2>
+            <ul className="list-inside list-disc space-y-1 text-trama-texto">
+              {intro.que_aprendes.map((q) => (
+                <li key={q}>{q}</li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="mb-5 rounded-2xl p-5 text-white shadow-sm" style={{ background: "var(--acento)" }}>
+            <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide text-white/80">
+              Prioridad
+            </h2>
+            <p>{intro.prioridad}</p>
+          </section>
+
+          {intro.conexion_siguiente && (
+            <p className="mb-6 text-sm text-trama-gris">
+              <span className="font-semibold text-trama-texto">Después de este semestre: </span>
+              {intro.conexion_siguiente}
+            </p>
+          )}
+        </>
+      )}
 
       <h2 className="mb-3 text-lg font-semibold">Unidades de aprendizaje</h2>
       <ul className="flex flex-col gap-3">

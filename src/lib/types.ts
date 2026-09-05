@@ -99,3 +99,55 @@ export interface Trayectoria {
   imagen?: string;
   semestres: TrayectoriaSemestre[];
 }
+
+export interface PasoCadena {
+  nombre: string;
+  descripcion: string;
+}
+
+export interface DatoItem {
+  etiqueta: string;
+  valor: string;
+}
+
+export interface EtapaItem {
+  rango: string;
+  nombre: string;
+  texto: string;
+}
+
+export interface AccionSeccion {
+  texto: string;
+  destino: string;
+}
+
+export type SeccionCarrera =
+  | { titulo: string; tipo: "cadena"; pasos: PasoCadena[]; cierre?: string }
+  | { titulo: string; tipo: "datos"; datos: DatoItem[] }
+  | { titulo: string; tipo: "etapas"; etapas: EtapaItem[] }
+  | { titulo: string; tipo: "aviso"; texto: string; accion?: AccionSeccion }
+  | { titulo: string; tipo: "pasos"; pasos: string[] }
+  | { titulo: string; tipo: "procedencia"; texto: string };
+
+export interface IntroCarrera {
+  id: string;
+  titulo: string;
+  subtitulo: string;
+  entrada: string;
+  secciones: SeccionCarrera[];
+}
+
+export interface IntroSemestre {
+  id: string;
+  titulo: string;
+  eje: string;
+  entrada: string;
+  que_aprendes: string[];
+  prioridad: string;
+  conexion_siguiente: string | null;
+}
+
+export interface Introducciones {
+  carrera: IntroCarrera;
+  semestres: IntroSemestre[];
+}

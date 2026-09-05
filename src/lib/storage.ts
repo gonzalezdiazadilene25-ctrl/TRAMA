@@ -35,3 +35,27 @@ export function setProgreso(
   if (typeof window === "undefined") return;
   window.localStorage.setItem(progresoKey(semestre, unidad, tema), estado);
 }
+
+export interface UltimoTema {
+  href: string;
+  titulo: string;
+  unidad: string;
+}
+
+const ULTIMO_TEMA_KEY = `${NS}:ultimo-tema`;
+
+export function setUltimoTema(valor: UltimoTema): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(ULTIMO_TEMA_KEY, JSON.stringify(valor));
+}
+
+export function getUltimoTema(): UltimoTema | null {
+  if (typeof window === "undefined") return null;
+  const raw = window.localStorage.getItem(ULTIMO_TEMA_KEY);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as UltimoTema;
+  } catch {
+    return null;
+  }
+}

@@ -5,6 +5,7 @@ import ProgresoSelector from "@/components/ProgresoSelector";
 import ApuntesEditor from "@/components/ApuntesEditor";
 import ResumenIA from "@/components/ResumenIA";
 import EvaluacionIA from "@/components/EvaluacionIA";
+import RegistrarVisita from "@/components/RegistrarVisita";
 import { getSemestre } from "@/lib/data";
 import { getContenidoUnidad } from "@/lib/contenido";
 import { slugify } from "@/lib/slug";
@@ -32,6 +33,11 @@ export default async function TemaPage({
 
   return (
     <div>
+      <RegistrarVisita
+        href={`${base}/${tema.slug}`}
+        titulo={tema.titulo}
+        unidad={`${unidad.nombre} · ${semestre.numero}.º semestre`}
+      />
       <Breadcrumb
         items={[
           { label: "Inicio", href: "/" },
