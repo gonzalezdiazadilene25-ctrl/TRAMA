@@ -8,12 +8,6 @@ export function generateStaticParams() {
   return semestres.map((s) => ({ numero: String(s.numero) }));
 }
 
-const badgeStyles: Record<string, string> = {
-  trayectoria: "bg-trama-grana/10 text-trama-grana",
-  eje: "bg-trama-indigo/10 text-trama-indigo",
-  fija: "bg-trama-gris/10 text-trama-gris",
-};
-
 const badgeLabels: Record<string, string> = {
   trayectoria: "trayectoria",
   eje: "eje optativo",
@@ -39,12 +33,12 @@ export default async function SemestrePage({
         ]}
       />
 
-      <div className="mb-6">
+      <div className="mb-6 rounded-3xl bg-[var(--acento)] p-6 text-white shadow-sm">
         <h1 className="text-2xl font-bold">{semestre.numero}.º semestre</h1>
-        <p className="mt-1 text-sm text-trama-gris">
+        <p className="mt-1 text-sm text-white/80">
           {semestre.creditos} créditos · {semestre.porcentaje}% del total de la carrera
         </p>
-        <p className="mt-2 text-trama-texto">{semestre.enfoque}</p>
+        <p className="mt-3">{semestre.enfoque}</p>
       </div>
 
       <h2 className="mb-3 text-lg font-semibold">Unidades de aprendizaje</h2>
@@ -59,10 +53,10 @@ export default async function SemestrePage({
             <li key={u.nombre}>
               <Link
                 href={href}
-                className="flex items-center justify-between rounded-lg border border-trama-gris/30 bg-white p-4 transition-colors hover:border-trama-indigo"
+                className="flex items-center justify-between rounded-2xl border border-trama-borde bg-trama-superficie p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[var(--acento)] hover:shadow-md"
               >
                 <span>{u.nombre}</span>
-                <span className={`rounded-full px-2 py-0.5 text-xs ${badgeStyles[u.tipo]}`}>
+                <span className="rounded-full bg-[var(--acento)]/10 px-2 py-0.5 text-xs text-[var(--acento)]">
                   {badgeLabels[u.tipo]}
                 </span>
               </Link>

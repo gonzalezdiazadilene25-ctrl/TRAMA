@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import { trayectorias } from "@/lib/data";
+import { getTrayectoriaColor } from "@/lib/theme";
 
 export const metadata = {
   title: "Trayectorias — TRAMA",
@@ -19,31 +20,35 @@ export default function TrayectoriasPage() {
       </div>
 
       <div className="flex flex-col gap-6">
-        {trayectorias.map((t) => (
-          <section
-            key={t.id}
-            id={t.id}
-            className="rounded-lg border border-trama-gris/30 bg-white p-5"
-          >
-            <h2 className="text-lg font-semibold text-trama-indigo">{t.nombre}</h2>
-            <p className="mt-1 text-sm text-trama-gris">{t.resumen}</p>
+        {trayectorias.map((t) => {
+          const color = getTrayectoriaColor(t.id);
+          return (
+            <section
+              key={t.id}
+              id={t.id}
+              className="overflow-hidden rounded-3xl shadow-sm"
+              style={{ background: `linear-gradient(155deg, ${color}, ${color}cc)` }}
+            >
+              <div className="p-6 text-white">
+                <h2 className="text-xl font-bold">{t.nombre}</h2>
+                <p className="mt-1 text-sm text-white/85">{t.resumen}</p>
 
-            <div className="mt-4 flex flex-col gap-3">
-              {t.semestres.map((s) => (
-                <div key={s.numero} className="flex gap-3">
-                  <span className="w-10 shrink-0 text-sm font-semibold text-trama-grana">
-                    {s.numero}.º
-                  </span>
-                  <ul className="list-inside list-disc text-sm text-trama-texto">
-                    {s.unidades.map((u) => (
-                      <li key={u}>{u}</li>
-                    ))}
-                  </ul>
+                <div className="mt-5 flex flex-col gap-3">
+                  {t.semestres.map((s) => (
+                    <div key={s.numero} className="flex gap-3 rounded-2xl bg-white/10 p-3">
+                      <span className="w-10 shrink-0 text-sm font-semibold">{s.numero}.º</span>
+                      <ul className="list-inside list-disc text-sm text-white/95">
+                        {s.unidades.map((u) => (
+                          <li key={u}>{u}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </section>
-        ))}
+              </div>
+            </section>
+          );
+        })}
       </div>
     </div>
   );

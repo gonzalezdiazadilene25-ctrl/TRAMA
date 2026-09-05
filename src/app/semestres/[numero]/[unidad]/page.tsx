@@ -41,7 +41,7 @@ export default async function UnidadPage({
               <li key={t.slug}>
                 <Link
                   href={`/semestres/${semestre.numero}/${unidadSlug}/${t.slug}`}
-                  className="flex items-center justify-between rounded-lg border border-trama-gris/30 bg-white p-4 transition-colors hover:border-trama-indigo"
+                  className="flex items-center justify-between rounded-2xl border border-trama-borde bg-trama-superficie p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[var(--acento)] hover:shadow-md"
                 >
                   <span>{t.titulo}</span>
                   {t.nombreCientifico && (
@@ -53,7 +53,7 @@ export default async function UnidadPage({
           </ul>
         </>
       ) : (
-        <div className="rounded-lg border border-trama-gris/30 bg-white p-5 text-trama-gris">
+        <div className="rounded-2xl border border-dashed border-trama-borde bg-trama-superficie p-5 text-trama-gris">
           El contenido de esta unidad todavía está en desarrollo. Por ahora, apóyate en tus
           apuntes de clase — esta vista se completará en una etapa posterior de TRAMA.
         </div>

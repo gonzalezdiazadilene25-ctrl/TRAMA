@@ -11,7 +11,7 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
       {items.map((item, i) => (
         <span key={i}>
           {item.href ? (
-            <Link href={item.href} className="hover:text-trama-indigo">
+            <Link href={item.href} className="hover:text-[var(--acento)]">
               {item.label}
             </Link>
           ) : (

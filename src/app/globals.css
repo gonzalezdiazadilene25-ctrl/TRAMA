@@ -2,14 +2,29 @@
 
 :root {
   --trama-hueso: #f7f5f2;
+  --trama-superficie: #ffffff;
+  --trama-borde: #e5e2dc;
   --trama-texto: #1c1c1c;
   --trama-indigo: #2f4b7c;
   --trama-grana: #b5573b;
   --trama-gris: #8a8a8a;
+  --acento: var(--trama-indigo);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --trama-hueso: #16181b;
+    --trama-superficie: #212327;
+    --trama-borde: #2c2f33;
+    --trama-texto: #f2f1ef;
+    --trama-gris: #9a9a9a;
+  }
 }
 
 @theme inline {
   --color-trama-hueso: var(--trama-hueso);
+  --color-trama-superficie: var(--trama-superficie);
+  --color-trama-borde: var(--trama-borde);
   --color-trama-texto: var(--trama-texto);
   --color-trama-indigo: var(--trama-indigo);
   --color-trama-grana: var(--trama-grana);
@@ -22,4 +37,22 @@ body {
   background: var(--trama-hueso);
   color: var(--trama-texto);
   font-size: 16px;
+}
+
+/* Color activo por semestre: al haber una página de semestre montada en
+   cualquier parte del body, el acento se propaga a todo (encabezado incluido). */
+body:has([data-semestre="1"]) { --acento: #3B5BA9; }
+body:has([data-semestre="2"]) { --acento: #17A2A2; }
+body:has([data-semestre="3"]) { --acento: #2E9E6B; }
+body:has([data-semestre="4"]) { --acento: #7CB518; }
+body:has([data-semestre="5"]) { --acento: #F5A623; }
+body:has([data-semestre="6"]) { --acento: #E2703A; }
+body:has([data-semestre="7"]) { --acento: #C0392B; }
+body:has([data-semestre="8"]) { --acento: #C2185B; }
+body:has([data-semestre="9"]) { --acento: #7B3FA0; }
+
+* {
+  transition-property: background-color, border-color, color, box-shadow, transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }

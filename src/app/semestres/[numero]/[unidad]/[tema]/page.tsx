@@ -38,31 +38,29 @@ export default async function TemaPage({
         ]}
       />
 
-      <div className="mb-6">
+      <div className="mb-6 rounded-3xl bg-[var(--acento)] p-6 text-white shadow-sm">
         <h1 className="text-2xl font-bold">{tema.titulo}</h1>
-        {tema.nombreCientifico && (
-          <p className="italic text-trama-gris">{tema.nombreCientifico}</p>
-        )}
+        {tema.nombreCientifico && <p className="italic text-white/80">{tema.nombreCientifico}</p>}
       </div>
 
-      <section className="mb-6">
-        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-trama-indigo">
+      <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
+        <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
           Definición
         </h2>
         <p className="text-trama-texto">{tema.definicion}</p>
       </section>
 
       {tema.composicion && (
-        <section className="mb-6">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-trama-indigo">
+        <section className="mb-5 overflow-hidden rounded-2xl border border-trama-borde bg-trama-superficie shadow-sm">
+          <h2 className="px-5 pt-5 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
             Composición
           </h2>
-          <div className="overflow-hidden rounded-lg border border-trama-gris/30 bg-white">
+          <div className="mt-3">
             {tema.composicion.map((c, i) => (
               <div
                 key={c.componente}
-                className={`flex justify-between px-4 py-2 text-sm ${
-                  i > 0 ? "border-t border-trama-gris/20" : ""
+                className={`flex justify-between px-5 py-2.5 text-sm ${
+                  i > 0 ? "border-t border-trama-borde" : ""
                 }`}
               >
                 <span>{c.componente}</span>
@@ -74,8 +72,8 @@ export default async function TemaPage({
       )}
 
       {tema.composicionNota && (
-        <section className="mb-6">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-trama-indigo">
+        <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
             Composición
           </h2>
           <p className="text-trama-texto">{tema.composicionNota}</p>
@@ -83,16 +81,16 @@ export default async function TemaPage({
       )}
 
       {tema.fichaTecnica && (
-        <section className="mb-6">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-trama-indigo">
+        <section className="mb-5 overflow-hidden rounded-2xl border border-trama-borde bg-trama-superficie shadow-sm">
+          <h2 className="px-5 pt-5 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
             Ficha técnica
           </h2>
-          <div className="overflow-hidden rounded-lg border border-trama-gris/30 bg-white">
+          <div className="mt-3">
             {tema.fichaTecnica.map((f, i) => (
               <div
                 key={f.propiedad}
-                className={`flex justify-between px-4 py-2 text-sm ${
-                  i > 0 ? "border-t border-trama-gris/20" : ""
+                className={`flex justify-between px-5 py-2.5 text-sm ${
+                  i > 0 ? "border-t border-trama-borde" : ""
                 }`}
               >
                 <span>{f.propiedad}</span>
@@ -104,8 +102,8 @@ export default async function TemaPage({
       )}
 
       {tema.fichaTecnicaPendiente && (
-        <section className="mb-6">
-          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-trama-indigo">
+        <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
             Ficha técnica
           </h2>
           <p className="text-sm text-trama-grana">
@@ -116,26 +114,26 @@ export default async function TemaPage({
       )}
 
       {tema.fuentePendiente && (
-        <p className="mb-6 text-xs text-trama-gris">
+        <p className="mb-5 text-xs text-trama-gris">
           Fuente bibliográfica exacta pendiente de registrar.
         </p>
       )}
 
-      <div className="mb-6 rounded-lg border border-dashed border-trama-gris/40 p-4 text-sm text-trama-gris">
+      <div className="mb-6 rounded-2xl border border-dashed border-trama-borde p-4 text-sm text-trama-gris">
         Mis apuntes, Resumen IA y Evaluación estarán disponibles en las siguientes fases del
         proyecto.
       </div>
 
-      <div className="flex justify-between border-t border-trama-gris/20 pt-4 text-sm">
+      <div className="flex justify-between border-t border-trama-borde pt-4 text-sm">
         {anterior ? (
-          <Link href={`${base}/${anterior.slug}`} className="text-trama-indigo hover:underline">
+          <Link href={`${base}/${anterior.slug}`} className="text-[var(--acento)] hover:underline">
             ‹ {anterior.titulo}
           </Link>
         ) : (
           <span />
         )}
         {siguiente ? (
-          <Link href={`${base}/${siguiente.slug}`} className="text-trama-indigo hover:underline">
+          <Link href={`${base}/${siguiente.slug}`} className="text-[var(--acento)] hover:underline">
             {siguiente.titulo} ›
           </Link>
         ) : (
