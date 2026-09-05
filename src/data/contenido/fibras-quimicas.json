@@ -1,0 +1,37 @@
+{
+  "unidad": "Fibras químicas",
+  "temas": [
+    {
+      "slug": "poliester",
+      "titulo": "Poliéster",
+      "nombreCientifico": "Polietilentereftalato (PET)",
+      "definicion": "Fibra sintética obtenida a partir del petróleo, formada por policondensación de ácido tereftálico y etilenglicol. Es la fibra química de mayor producción mundial por su resistencia, bajo costo y facilidad de mezcla con otras fibras.",
+      "composicionNota": "Compuesta casi en su totalidad por polietilentereftalato (PET), un polímero termoplástico formado por unidades repetidas de éster.",
+      "fichaTecnicaPendiente": true
+    },
+    {
+      "slug": "nylon",
+      "titulo": "Nylon (poliamida)",
+      "nombreCientifico": "Poliamida 6 / 6.6",
+      "definicion": "Fibra sintética termoplástica formada por poliamidas, cadenas de moléculas unidas por enlaces amida, obtenida a partir de derivados del petróleo. Se distingue por su alta resistencia a la abrasión, elasticidad y ligereza.",
+      "composicionNota": "Formada por poliamida sintética; el tipo exacto (nylon 6 o nylon 6.6) depende del proceso de polimerización empleado.",
+      "fichaTecnicaPendiente": true
+    },
+    {
+      "slug": "acrilico",
+      "titulo": "Acrílico",
+      "nombreCientifico": "Poliacrilonitrilo (PAN)",
+      "definicion": "Fibra sintética derivada del poliacrilonitrilo, desarrollada como alternativa a la lana por su calidez, ligereza y voluminosidad. Se usa ampliamente en prendas de punto y textiles para el hogar.",
+      "composicionNota": "Para clasificarse como acrílico, la fibra debe contener al menos 85 % de acrilonitrilo en su composición (por debajo de ese porcentaje, y hasta 35 %, se clasifica como modacrílico), según la clasificación textil internacional de fibras genéricas.",
+      "fichaTecnicaPendiente": true
+    },
+    {
+      "slug": "viscosa",
+      "titulo": "Viscosa (rayón)",
+      "nombreCientifico": "Celulosa regenerada",
+      "definicion": "Fibra artificial (regenerada) obtenida de la celulosa de la madera, transformada químicamente y reconstituida en forma de filamento. A diferencia del poliéster o el nylon, su materia prima es celulosa natural y no petróleo, pero requiere un proceso químico intensivo, por lo que se clasifica dentro de las fibras químicas. Se caracteriza por una absorción de humedad similar al algodón y un tacto suave.",
+      "composicionNota": "Compuesta principalmente por celulosa regenerada, químicamente emparentada con la del algodón pero reestructurada mediante el proceso de xantato de celulosa (proceso viscosa).",
+      "fichaTecnicaPendiente": true
+    }
+  ]
+}
