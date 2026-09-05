@@ -1,0 +1,46 @@
+{
+  "unidad": "Fibras naturales",
+  "temas": [
+    {
+      "slug": "algodon",
+      "titulo": "Algodón",
+      "nombreCientifico": "Gossypium sp.",
+      "definicion": "Fibra natural celulósica de origen vegetal, obtenida del pelo unicelular que recubre la semilla de las plantas del género Gossypium. Es la fibra natural de mayor uso industrial en el mundo por su capacidad de absorción, suavidad y facilidad de teñido.",
+      "composicion": [
+        { "componente": "Celulosa", "valor": "88–96 %" },
+        { "componente": "Ceras", "valor": "0.6 %" },
+        { "componente": "Pectinas", "valor": "1.2 %" }
+      ],
+      "fichaTecnica": [
+        { "propiedad": "Longitud de fibra", "valor": "20–38 mm" },
+        { "propiedad": "Finura", "valor": "3–5 mic" },
+        { "propiedad": "Tenacidad", "valor": "3–5 g/den" }
+      ],
+      "fuentePendiente": true
+    },
+    {
+      "slug": "lino",
+      "titulo": "Lino",
+      "nombreCientifico": "Linum usitatissimum",
+      "definicion": "Fibra natural celulósica de origen vegetal, obtenida del tallo (líber) de la planta de lino. Es una de las fibras textiles más antiguas usadas por el ser humano; se caracteriza por su brillo natural, buena absorción de humedad y mayor rigidez que el algodón.",
+      "composicionNota": "Compuesta principalmente por celulosa, con proporciones menores de hemicelulosa, pectina y lignina. Los porcentajes exactos varían según la fuente consultada.",
+      "fichaTecnicaPendiente": true
+    },
+    {
+      "slug": "lana",
+      "titulo": "Lana",
+      "nombreCientifico": "Ovis aries",
+      "definicion": "Fibra natural proteica (queratínica) obtenida del vellón de ovinos. Se distingue por su elasticidad, capacidad de recuperación y buen aislamiento térmico, propiedades derivadas de su estructura helicoidal.",
+      "composicionNota": "Compuesta principalmente por queratina, una proteína fibrosa rica en el aminoácido cistina, responsable de sus enlaces disulfuro característicos.",
+      "fichaTecnicaPendiente": true
+    },
+    {
+      "slug": "seda",
+      "titulo": "Seda",
+      "nombreCientifico": "Bombyx mori",
+      "definicion": "Fibra natural proteica de origen animal, producida por el gusano de seda al hilar su capullo. Es la única fibra natural que se obtiene en forma de filamento continuo, lo que le da su brillo característico.",
+      "composicionNota": "Formada principalmente por fibroína, la proteína estructural del filamento, recubierta por sericina, una goma proteica que se elimina durante el proceso de desgomado.",
+      "fichaTecnicaPendiente": true
+    }
+  ]
+}

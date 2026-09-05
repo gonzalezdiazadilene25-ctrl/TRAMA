@@ -14,6 +14,33 @@ export interface Semestre {
   unidades: Unidad[];
 }
 
+export interface FichaTecnicaItem {
+  propiedad: string;
+  valor: string;
+}
+
+export interface ComposicionItem {
+  componente: string;
+  valor: string;
+}
+
+export interface Tema {
+  slug: string;
+  titulo: string;
+  nombreCientifico?: string;
+  definicion: string;
+  composicion?: ComposicionItem[];
+  composicionNota?: string;
+  fichaTecnica?: FichaTecnicaItem[];
+  fichaTecnicaPendiente?: boolean;
+  fuentePendiente?: boolean;
+}
+
+export interface UnidadContenido {
+  unidad: string;
+  temas: Tema[];
+}
+
 export interface TrayectoriaSemestre {
   numero: number;
   unidades: string[];

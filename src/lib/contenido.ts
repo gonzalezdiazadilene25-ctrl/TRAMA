@@ -1,0 +1,14 @@
+import fibrasNaturales from "@/data/contenido/fibras-naturales.json";
+import type { UnidadContenido } from "@/lib/types";
+
+const contenidoPorUnidad: Record<string, UnidadContenido> = {
+  "fibras-naturales": fibrasNaturales as UnidadContenido,
+};
+
+export function getContenidoUnidad(slugUnidad: string): UnidadContenido | undefined {
+  return contenidoPorUnidad[slugUnidad];
+}
+
+export function getTema(slugUnidad: string, slugTema: string) {
+  return getContenidoUnidad(slugUnidad)?.temas.find((t) => t.slug === slugTema);
+}

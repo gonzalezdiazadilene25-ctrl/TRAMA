@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getSemestre, semestres } from "@/lib/data";
+import { slugify } from "@/lib/slug";
 
 export function generateStaticParams() {
   return semestres.map((s) => ({ numero: String(s.numero) }));
@@ -49,22 +50,22 @@ export default async function SemestrePage({
       <h2 className="mb-3 text-lg font-semibold">Unidades de aprendizaje</h2>
       <ul className="flex flex-col gap-3">
         {semestre.unidades.map((u) => {
-          const contenido = (
-            <div className="flex items-center justify-between rounded-lg border border-trama-gris/30 bg-white p-4">
-              <span>{u.nombre}</span>
-              <span className={`rounded-full px-2 py-0.5 text-xs ${badgeStyles[u.tipo]}`}>
-                {badgeLabels[u.tipo]}
-              </span>
-            </div>
-          );
+          const href =
+            u.tipo === "trayectoria"
+              ? "/trayectorias"
+              : `/semestres/${semestre.numero}/${slugify(u.nombre)}`;
 
           return (
             <li key={u.nombre}>
-              {u.tipo === "trayectoria" ? (
-                <Link href="/trayectorias">{contenido}</Link>
-              ) : (
-                contenido
-              )}
+              <Link
+                href={href}
+                className="flex items-center justify-between rounded-lg border border-trama-gris/30 bg-white p-4 transition-colors hover:border-trama-indigo"
+              >
+                <span>{u.nombre}</span>
+                <span className={`rounded-full px-2 py-0.5 text-xs ${badgeStyles[u.tipo]}`}>
+                  {badgeLabels[u.tipo]}
+                </span>
+              </Link>
               {u.verificar && (
                 <p className="mt-1 px-1 text-xs text-trama-grana">
                   Pendiente de verificar en tu tira de materias (SAES).
