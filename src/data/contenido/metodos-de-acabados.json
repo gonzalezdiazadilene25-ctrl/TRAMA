@@ -1,0 +1,45 @@
+{
+  "unidad": "Métodos de acabados",
+  "temas": [
+    {
+      "slug": "blanqueo",
+      "titulo": "Blanqueo",
+      "definicion": "Proceso químico de acabado que elimina o reduce el color natural de las fibras, como las impurezas y pigmentos del algodón crudo, para obtener una base blanca uniforme, necesaria antes de teñir en tonos claros o de dejar la tela blanca como acabado final.",
+      "caracteristicas": [
+        "Se realiza después de procesos de preparación como el desengomado y el descrude, que eliminan almidones, ceras y otras impurezas de la fibra o del hilo.",
+        "Los agentes blanqueadores más comunes en la industria textil son el peróxido de hidrógeno, el hipoclorito de sodio y el clorito de sodio, según el tipo de fibra.",
+        "Un blanqueo mal controlado puede dañar la resistencia de la fibra, por lo que se regula cuidadosamente la concentración, la temperatura y el tiempo del proceso."
+      ]
+    },
+    {
+      "slug": "tenido",
+      "titulo": "Teñido",
+      "definicion": "Proceso de acabado húmedo que aplica un colorante a la fibra, al hilo o a la tela terminada, de manera que el color penetre y se fije de forma duradera, resistiendo lavados y exposición a la luz según el tipo de colorante y fibra empleados.",
+      "caracteristicas": [
+        "La elección del colorante depende del tipo de fibra: por ejemplo, los colorantes reactivos y directos se usan en fibras celulósicas como el algodón, y los colorantes dispersos en fibras sintéticas como el poliéster.",
+        "El teñido puede aplicarse en distintas etapas de producción: en fibra suelta, en hilo, en tela (pieza) o en la prenda ya confeccionada.",
+        "La solidez del color (resistencia al lavado, al frote y a la luz) es uno de los principales parámetros de calidad que se evalúan después del teñido."
+      ]
+    },
+    {
+      "slug": "estampado",
+      "titulo": "Estampado",
+      "definicion": "Proceso de acabado que aplica el colorante de forma localizada sobre la superficie de la tela, siguiendo un diseño o patrón, a diferencia del teñido, que cubre la tela de manera uniforme.",
+      "caracteristicas": [
+        "Los métodos más comunes son el estampado por rodillo (rotativo), el estampado por marco plano o rotativo (serigrafía textil) y el estampado digital.",
+        "Después de aplicar el colorante o pigmento, suele requerirse un proceso de fijación (vaporizado, termofijado o curado) para que el diseño resista el lavado.",
+        "El estampado digital ha crecido en la industria porque permite diseños de alta definición y series cortas, sin fabricar marcos o rodillos específicos para cada diseño."
+      ]
+    },
+    {
+      "slug": "acabados-funcionales",
+      "titulo": "Acabados funcionales",
+      "definicion": "Tratamientos químicos o mecánicos aplicados a la tela después de teñida o estampada para darle propiedades adicionales que no dependen únicamente de la fibra o la estructura del tejido, como repelencia al agua, resistencia a las arrugas, antibacterianos o ignífugos.",
+      "caracteristicas": [
+        "A diferencia del teñido o el estampado, un acabado funcional no busca dar color sino modificar el comportamiento de la tela ante el uso.",
+        "Muchos acabados funcionales son temporales y se reducen con los lavados sucesivos, por lo que su durabilidad es un criterio de calidad importante.",
+        "Ejemplos comunes son el acabado hidrofóbico (repelente al agua), el antiarrugas (resinas de fácil cuidado) y el antibacteriano."
+      ]
+    }
+  ]
+}
