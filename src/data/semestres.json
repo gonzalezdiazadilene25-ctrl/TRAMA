@@ -1,0 +1,136 @@
+[
+  {
+    "numero": 1,
+    "creditos": 49,
+    "porcentaje": 11.67,
+    "enfoque": "Base científica y tecnológica. Prioriza cálculo, álgebra, física y programación.",
+    "unidades": [
+      { "nombre": "Fibras naturales", "tipo": "fija" },
+      { "nombre": "Métodos de acabados", "tipo": "fija", "verificar": true },
+      { "nombre": "Fundamentos de programación", "tipo": "fija" },
+      { "nombre": "Álgebra lineal", "tipo": "fija" },
+      { "nombre": "Mecánica clásica", "tipo": "fija" },
+      { "nombre": "Fundamentos de tejidos de calada y Jacquard", "tipo": "fija" },
+      { "nombre": "Contexto de la ingeniería textil", "tipo": "fija" },
+      { "nombre": "Cálculo diferencial e integral", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 2,
+    "creditos": 45,
+    "porcentaje": 10.71,
+    "enfoque": "Continuidad matemática y física; aparecen más procesos textiles y comunicación técnica.",
+    "unidades": [
+      { "nombre": "Fibras químicas", "tipo": "fija" },
+      { "nombre": "Métodos de acabados", "tipo": "fija", "verificar": true },
+      { "nombre": "Electricidad y magnetismo", "tipo": "fija" },
+      { "nombre": "Cálculo vectorial", "tipo": "fija" },
+      { "nombre": "Fundamentos de tejidos de punto", "tipo": "fija" },
+      { "nombre": "Métodos de confección", "tipo": "fija" },
+      { "nombre": "Habilidades y técnicas de comunicación", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 3,
+    "creditos": 50,
+    "porcentaje": 11.9,
+    "enfoque": "Primer núcleo duro de integración: química, máquinas, fluidos, ecuaciones y manufactura.",
+    "unidades": [
+      { "nombre": "Química textil básica", "tipo": "fija" },
+      { "nombre": "Fundamentos de manufactura de prendas", "tipo": "fija" },
+      { "nombre": "Fundamentos de electromecánica y electrónica", "tipo": "fija" },
+      { "nombre": "Hilatura de algodón", "tipo": "fija" },
+      { "nombre": "Desarrollo y liderazgo", "tipo": "fija" },
+      { "nombre": "Fundamentos de no tejidos", "tipo": "fija" },
+      { "nombre": "Mecánica de fluidos", "tipo": "fija" },
+      { "nombre": "Ecuaciones diferenciales", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 4,
+    "creditos": 48,
+    "porcentaje": 11.43,
+    "enfoque": "Se conectan ciencias, diseño mecánico, análisis de datos y decisiones industriales.",
+    "unidades": [
+      { "nombre": "Fisicoquímica textil", "tipo": "fija" },
+      { "nombre": "Diseño de mecanismos por computadora", "tipo": "fija" },
+      { "nombre": "Fundamentos de termodinámica", "tipo": "fija" },
+      { "nombre": "Química aplicada a la ingeniería textil", "tipo": "fija" },
+      { "nombre": "Probabilidad y estadística", "tipo": "fija" },
+      { "nombre": "Ingeniería económica", "tipo": "fija" },
+      { "nombre": "Máquinas, equipos y sistemas de confección", "tipo": "fija" },
+      { "nombre": "Hilatura de fibras químicas", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 5,
+    "creditos": 53,
+    "porcentaje": 12.62,
+    "enfoque": "Mayor carga de créditos e inicio de especialización. Exige organización y seguimiento semanal.",
+    "unidades": [
+      { "nombre": "Gestión ambiental y tecnologías limpias", "tipo": "fija" },
+      { "nombre": "Aire acondicionado y refrigeración", "tipo": "fija" },
+      { "nombre": "Cinemática de las máquinas", "tipo": "fija" },
+      { "nombre": "Higiene y seguridad industrial", "tipo": "fija" },
+      { "nombre": "Relaciones industriales", "tipo": "fija" },
+      { "nombre": "Contabilidad industrial", "tipo": "fija" },
+      { "nombre": "Primera unidad de la trayectoria elegida", "tipo": "trayectoria" }
+    ]
+  },
+  {
+    "numero": 6,
+    "creditos": 43,
+    "porcentaje": 10.24,
+    "enfoque": "La formación se vuelve más aplicada: materiales, programación, costos y especialidad.",
+    "unidades": [
+      { "nombre": "Legislación aduanera", "tipo": "fija" },
+      { "nombre": "Reología aplicada a los textiles", "tipo": "fija" },
+      { "nombre": "Programación orientada a objetos", "tipo": "fija" },
+      { "nombre": "Segunda unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Tercera unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Sistemas de costos", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 7,
+    "creditos": 50,
+    "porcentaje": 11.9,
+    "enfoque": "Concentración alta de especialidad, calidad, automatización y tecnologías emergentes.",
+    "unidades": [
+      { "nombre": "Sistemas de gestión de calidad", "tipo": "fija" },
+      { "nombre": "Primera unidad del eje optativo", "tipo": "eje" },
+      { "nombre": "Nanotecnología", "tipo": "fija" },
+      { "nombre": "Cuarta unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Quinta unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Sexta unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Automatización de procesos", "tipo": "fija" }
+    ]
+  },
+  {
+    "numero": 8,
+    "creditos": 42,
+    "porcentaje": 10.0,
+    "enfoque": "Predominan la producción y las unidades de trayectoria; los proyectos suelen crecer en complejidad.",
+    "unidades": [
+      { "nombre": "Segunda unidad del eje optativo", "tipo": "eje" },
+      { "nombre": "Programación y control de la producción", "tipo": "fija" },
+      { "nombre": "Séptima unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Octava unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Novena unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Décima unidad de trayectoria", "tipo": "trayectoria" }
+    ]
+  },
+  {
+    "numero": 9,
+    "creditos": 40,
+    "porcentaje": 9.52,
+    "enfoque": "Cierre integrador: investigación, medición, normas, ensayos y administración de proyectos.",
+    "unidades": [
+      { "nombre": "Procesos textiles", "tipo": "fija" },
+      { "nombre": "Metrología, normalización y ensayos textiles", "tipo": "fija" },
+      { "nombre": "Seminario de investigación", "tipo": "fija" },
+      { "nombre": "Undécima unidad de trayectoria", "tipo": "trayectoria" },
+      { "nombre": "Duodécima unidad de trayectoria", "tipo": "trayectoria" }
+    ]
+  }
+]

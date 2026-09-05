@@ -1,0 +1,132 @@
+[
+  {
+    "id": "hilados",
+    "nombre": "Hilados",
+    "resumen": "Fibras, producción de hilo, maquinaria, control de calidad, reciclaje y geotextiles.",
+    "semestres": [
+      { "numero": 5, "unidades": ["Análisis de hilos"] },
+      { "numero": 6, "unidades": ["Cinemática de las máquinas de hilados", "Hilatura Open End"] },
+      {
+        "numero": 7,
+        "unidades": [
+          "Tecnología del reciclado y geotextiles",
+          "Hilatura de lana",
+          "Hilatura de mezcla íntima y procesos de manuares"
+        ]
+      },
+      {
+        "numero": 8,
+        "unidades": [
+          "Control de calidad en hilatura de algodón",
+          "Tarifas textiles en hilados",
+          "ISO 14001 en procesos de hilados",
+          "Control de calidad en hilatura de sintéticos"
+        ]
+      },
+      {
+        "numero": 9,
+        "unidades": [
+          "Estudio del trabajo, tiempos y movimientos en hilatura",
+          "Administración de proyectos en hilados"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tejidos",
+    "nombre": "Tejidos",
+    "resumen": "Telares, tejido plano y de punto, Jacquard, textiles técnicos, CAD y producción.",
+    "semestres": [
+      { "numero": 5, "unidades": ["Análisis y cálculo de producción en tejidos"] },
+      { "numero": 6, "unidades": ["Control de calidad en los tejidos", "Fundamentos de textiles técnicos"] },
+      {
+        "numero": 7,
+        "unidades": [
+          "Textiles técnicos avanzados",
+          "Análisis y producción de tejido de punto por urdimbre",
+          "Simulación de tejidos Jacquard"
+        ]
+      },
+      {
+        "numero": 8,
+        "unidades": [
+          "Tejidos 3D",
+          "Análisis y desarrollo de tejidos técnicos avanzados",
+          "Tejidos especiales mediante CAD",
+          "SMED"
+        ]
+      },
+      {
+        "numero": 9,
+        "unidades": [
+          "Estudio del trabajo, tiempos y movimientos en tejidos",
+          "Administración de proyectos en tejidos"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acabados",
+    "nombre": "Acabados",
+    "resumen": "Química de tintura, color, estampado, procesos húmedos y acabados funcionales.",
+    "semestres": [
+      { "numero": 5, "unidades": ["Pretratamiento de hilos y géneros textiles"] },
+      { "numero": 6, "unidades": ["Proceso de tintura de fibras", "Estampado textil"] },
+      {
+        "numero": 7,
+        "unidades": [
+          "Proceso de igualación y colorimetría en fibras",
+          "Análisis de procesos en húmedo",
+          "Procesos de tintura en mezclas"
+        ]
+      },
+      {
+        "numero": 8,
+        "unidades": [
+          "Procesos de lavado de mezclilla",
+          "Control de calidad en acabados",
+          "Acabados con atributos funcionales",
+          "Análisis de procesos en acabados"
+        ]
+      },
+      {
+        "numero": 9,
+        "unidades": [
+          "Estudio del trabajo, tiempos y movimientos en acabados",
+          "Administración de proyectos en acabados"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "confeccion",
+    "nombre": "Confección",
+    "resumen": "Corte, manufactura de prendas, maquinaria, organización de planta, costos y producción.",
+    "semestres": [
+      { "numero": 5, "unidades": ["Corte industrial"] },
+      {
+        "numero": 6,
+        "unidades": ["Proceso productivo de ropa de dama", "Proceso productivo de ropa de caballero"]
+      },
+      {
+        "numero": 7,
+        "unidades": [
+          "Uniformes industriales, escolares y hospitalarios",
+          "Ropa íntima, lencería y corsetería",
+          "Ropa deportiva convencional y de deporte extremo"
+        ]
+      },
+      {
+        "numero": 8,
+        "unidades": ["Ropa infantil", "Blancos", "Tarifas textiles en confección", "Tenería y artículos de piel"]
+      },
+      {
+        "numero": 9,
+        "unidades": [
+          "Estudio del trabajo, tiempos y movimientos en confección",
+          "Administración de proyectos en confección"
+        ]
+      }
+    ]
+  }
+]
