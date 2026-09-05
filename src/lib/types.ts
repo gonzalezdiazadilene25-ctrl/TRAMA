@@ -1,9 +1,38 @@
 export type TipoUnidad = "fija" | "trayectoria" | "eje";
 
+export type Evidencia = "oficial" | "ampliacion" | "por_confirmar";
+
+export interface EvaluacionRubro {
+  rubro: string;
+  porcentaje: number | null;
+}
+
+export interface TemaOficial {
+  id: string;
+  numero: string;
+  nombre: string;
+  subtemas: string[];
+  estado: "pendiente" | "en_curso" | "dominado";
+  competencia?: string;
+  objetivo?: string;
+  horasDocente?: number;
+  horasAutonomas?: number;
+}
+
 export interface Unidad {
   nombre: string;
   tipo: TipoUnidad;
   verificar?: boolean;
+  id?: string;
+  evidencia?: Evidencia;
+  fuente?: string;
+  proposito?: string;
+  evaluacion?: EvaluacionRubro[];
+  bibliografia?: string[];
+  notas?: string;
+  temasOficiales?: TemaOficial[];
+  horasDocenteTotal?: number;
+  horasAutonomasTotal?: number;
 }
 
 export interface Semestre {
@@ -39,6 +68,7 @@ export interface Tema {
 
 export interface UnidadContenido {
   unidad: string;
+  evidencia?: Evidencia;
   temas: Tema[];
 }
 

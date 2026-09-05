@@ -5,14 +5,463 @@
     "porcentaje": 11.67,
     "enfoque": "Base científica y tecnológica. Prioriza cálculo, álgebra, física y programación.",
     "unidades": [
-      { "nombre": "Fibras naturales", "tipo": "fija" },
-      { "nombre": "Métodos de acabados", "tipo": "fija", "verificar": true },
-      { "nombre": "Fundamentos de programación", "tipo": "fija" },
-      { "nombre": "Álgebra lineal", "tipo": "fija" },
-      { "nombre": "Mecánica clásica", "tipo": "fija" },
-      { "nombre": "Fundamentos de tejidos de calada y Jacquard", "tipo": "fija" },
-      { "nombre": "Contexto de la ingeniería textil", "tipo": "fija" },
-      { "nombre": "Cálculo diferencial e integral", "tipo": "fija" }
+      {
+        "nombre": "Fibras naturales",
+        "tipo": "fija",
+        "id": "s01-u01",
+        "evidencia": "oficial",
+        "fuente": "Temario entregado en clase, agosto 2026",
+        "proposito": "Identificar y clasificar las fibras textiles naturales y artificiales con base en sus características físicas y químicas.",
+        "evaluacion": [
+          { "rubro": "Examen", "porcentaje": 60 },
+          { "rubro": "Exposición", "porcentaje": 15 },
+          { "rubro": "Prácticas", "porcentaje": 15 },
+          { "rubro": "Sellos", "porcentaje": 10 }
+        ],
+        "temasOficiales": [
+          {
+            "id": "s01-u01-t01",
+            "numero": "1",
+            "nombre": "Clasificación de las fibras textiles",
+            "estado": "pendiente",
+            "subtemas": [
+              "1.1 Introducción a las fibras textiles",
+              "1.1.1 Definición y conceptos",
+              "1.1.2 Fibra, filamento e hilo",
+              "1.2 Clasificación de las fibras textiles",
+              "1.3 Propiedades y características generales de las fibras"
+            ]
+          },
+          {
+            "id": "s01-u01-t02",
+            "numero": "2",
+            "nombre": "Características físicas y químicas de las fibras naturales y artificiales",
+            "estado": "pendiente",
+            "subtemas": [
+              "2.1 Características físicas y químicas de las fibras naturales vegetales",
+              "2.1.1 Procedentes del tallo, fruto u hoja: yute, cáñamo, lino y algodón",
+              "2.2 Características físicas y químicas de las fibras naturales animales",
+              "2.2.1 Procedentes de la lana, pelo y sedas",
+              "2.3 Características físicas y químicas de las fibras minerales naturales",
+              "2.3.1 Procedentes del vidrio, asbesto, oro y plata",
+              "2.4 Características físicas y químicas de las fibras artificiales",
+              "2.5 Nitrato, viscosa, cuproamonio, acetato, modal, lyocell, algínicas y proteicas"
+            ]
+          },
+          {
+            "id": "s01-u01-t03",
+            "numero": "3",
+            "nombre": "Identificación de las fibras naturales y artificiales",
+            "estado": "pendiente",
+            "subtemas": [
+              "3.1 Identificación de las fibras naturales y artificiales",
+              "3.1.1 Identificación por combustión",
+              "3.1.2 Identificación por cortes seccionales de las fibras textiles",
+              "3.1.3 Identificación por vistas longitudinales y procesos químicos",
+              "3.1.4 Identificación por procesos térmicos"
+            ]
+          },
+          {
+            "id": "s01-u01-t04",
+            "numero": "4",
+            "nombre": "Consumo, procedencia, producción y uso de las fibras naturales y artificiales",
+            "estado": "pendiente",
+            "subtemas": [
+              "4.1 Procedencia de las fibras naturales y artificiales",
+              "4.1.1 Consumos",
+              "4.1.2 Producciones nacionales y mundiales",
+              "4.2 Usos finales de las fibras naturales y artificiales"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos de tejidos de calada y Jacquard",
+        "tipo": "fija",
+        "id": "s01-u02",
+        "evidencia": "oficial",
+        "fuente": "Temario entregado en clase, 25 de agosto de 2026",
+        "proposito": "Analizar la estructura de los diferentes tejidos de calada y Jacquard con base en sus características y equipos productivos.",
+        "evaluacion": [{ "rubro": "Tres parciales a lo largo del semestre", "porcentaje": null }],
+        "notas": "Incluye evaluación diagnóstica inicial. Los porcentajes exactos por parcial están por confirmar con la docente.",
+        "temasOficiales": [
+          {
+            "id": "s01-u02-t01",
+            "numero": "1",
+            "nombre": "Antecedentes históricos del tejido de calada y Jacquard",
+            "estado": "pendiente",
+            "objetivo": "Identificar los telares con base en la teoría de tejidos.",
+            "subtemas": [
+              "1.1 Antecedentes históricos del tejido de calada",
+              "1.2 Vocabulario básico de los tejidos de calada",
+              "1.3 Materia prima empleada en los tejidos de calada",
+              "1.4 Teoría de tejidos, escalonados, relaciones, ligamentos fundamentales y derivados",
+              "1.5 Cursos de colorido, lisos, por urdimbre, por urdimbre y trama, y estampados"
+            ]
+          },
+          {
+            "id": "s01-u02-t02",
+            "numero": "2",
+            "nombre": "Ligamentos fundamentales y derivados del tejido de calada y Jacquard",
+            "estado": "pendiente",
+            "objetivo": "Distinguir los ligamentos fundamentales y derivados del tejido de calada con base en su apariencia.",
+            "subtemas": [
+              "2.1 Identificación de los ligamentos fundamentales: tafetán, sarga y raso",
+              "2.2 Identificación de ligamentos derivados: taletones, esterillas, sargas y rasos",
+              "2.3 Representación gráfica de los derivados",
+              "2.4 Centrado, repaso y picado del tejido"
+            ]
+          },
+          {
+            "id": "s01-u02-t03",
+            "numero": "3",
+            "nombre": "Maquinaria del proceso productivo del tejido de calada y Jacquard",
+            "estado": "pendiente",
+            "objetivo": "Clasificar los elementos de los telares con base en la maquinaria del proceso productivo.",
+            "subtemas": [
+              "3.1 Elementos que conforman a los telares de calada y Jacquard",
+              "3.2 Funcionamiento de las partes de los telares de calada y Jacquard",
+              "3.3 Operaciones previas al tejido de calada y Jacquard",
+              "3.4 Procedimientos para el montaje de la urdimbre en los telares",
+              "3.5 Características físicas del tejido de calada y Jacquard"
+            ]
+          },
+          {
+            "id": "s01-u02-t04",
+            "numero": "4",
+            "nombre": "Tejidos especiales de calada y Jacquard",
+            "estado": "pendiente",
+            "objetivo": "Comparar los tejidos especiales de calada y Jacquard con base en muestras y su representación gráfica.",
+            "subtemas": [
+              "4.1 Análisis de los tejidos especiales con muestras y representación gráfica",
+              "4.2 Tejidos de rizo a una y dos caras",
+              "4.3 Terciopelos por urdimbre y trama",
+              "4.4 Tejidos de gasa",
+              "4.5 Tejidos Jacquard, telas a dos caras, dobles telas y formación de los orillos"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Contexto de la ingeniería textil",
+        "tipo": "fija",
+        "id": "s01-u03",
+        "evidencia": "oficial",
+        "fuente": "Temario entregado en clase, 31 de agosto de 2026",
+        "proposito": "Comprender el campo de la ingeniería textil, su relación con la ciencia y la tecnología, y la responsabilidad ética del ingeniero.",
+        "evaluacion": [],
+        "bibliografia": [
+          "Baca Urbina, Gabriel (2014). Introducción a la ingeniería, 2ª edición. Grupo Editorial Patria. México.",
+          "Bunge, Mario (2013). La ciencia, su método y su filosofía. España.",
+          "Velozco Rodríguez, Griselle (2016). Origen del textil en Mesoamérica. Edición IPN. México.",
+          "Eran Pérez, David Moisés. Introducción a la ingeniería, 4ª edición. Alfaomega. México."
+        ],
+        "temasOficiales": [
+          {
+            "id": "s01-u03-t01",
+            "numero": "1",
+            "nombre": "La ingeniería textil y su historia",
+            "estado": "pendiente",
+            "subtemas": [
+              "1.1 Ingeniería, definición y características",
+              "1.1.1 Campos de acción",
+              "1.1.2 La profesión de la ingeniería",
+              "1.2 Carácter interdisciplinario",
+              "1.3 Ingeniería textil",
+              "1.3.1 Antecedentes y campo laboral",
+              "1.3.2 Hilatura",
+              "1.3.3 Tejidos",
+              "1.3.4 Acabados",
+              "1.3.5 Confección",
+              "1.4 Innovación en el ramo textil",
+              "1.5 Perspectivas de desarrollo"
+            ]
+          },
+          {
+            "id": "s01-u03-t02",
+            "numero": "2",
+            "nombre": "El ingeniero y su relación con la ciencia y la tecnología",
+            "estado": "pendiente",
+            "subtemas": [
+              "2.1 El nacimiento científico, tecnológico y la naturaleza humana",
+              "2.2 El trabajo del hombre como medio para satisfacer sus necesidades",
+              "2.2.1 Influencia del medio en la sociedad",
+              "2.3 El método científico, características y su aplicación en el ramo textil",
+              "2.4 Tecnología: definición, método y aplicación en el ramo textil",
+              "2.5 La ingeniería textil como impulsora de la transformación social (INEGI, CANAINTEX y organismos del sector)"
+            ]
+          },
+          {
+            "id": "s01-u03-t03",
+            "numero": "3",
+            "nombre": "Responsabilidad ética y social del ingeniero",
+            "estado": "pendiente",
+            "subtemas": [
+              "3.1 Definición de los valores humanos",
+              "3.2 Clasificación de los valores humanos",
+              "3.3 Características de los valores humanos",
+              "3.4 Persona e individuo",
+              "3.5 El concepto de persona en los contextos científico y técnico",
+              "3.6 ¿Qué es la ética y la moral? Valores de las sociedades",
+              "3.7 La ética y la moral desde la perspectiva científica",
+              "3.8 Aplicación de la ética profesional en la ingeniería textil",
+              "3.9 Importancia de los valores humanos en el contexto de la ingeniería textil"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Mecánica clásica",
+        "tipo": "fija",
+        "id": "s01-u04",
+        "evidencia": "oficial",
+        "fuente": "Programa de estudios impreso, ESIT-IPN",
+        "proposito": "Estima el comportamiento de los fenómenos físicos con base en el criterio cinemático, dinámico y energético.",
+        "evaluacion": [],
+        "bibliografia": [
+          "Beer, Ferdinand. Mecánica vectorial para ingenieros, Dinámica.",
+          "Bueche, Frederick J. y Hecht, Eugene. Física general, serie Schaum.",
+          "Resnick, Robert. Física, vol. 1.",
+          "Serway, Raymond A. Física para ciencias e ingeniería, volumen 1.",
+          "Tippens, Paul E. Física: conceptos y aplicaciones.",
+          "Young, Hugh H. y Freedman, Roger A. Física universitaria, volumen 1."
+        ],
+        "temasOficiales": [
+          {
+            "id": "s01-u04-t01",
+            "numero": "I",
+            "nombre": "Magnitudes físicas y composición de vectores",
+            "competencia": "Realiza operaciones con vectores a partir de las magnitudes escalares y vectoriales.",
+            "estado": "pendiente",
+            "subtemas": [
+              "1.1 Sistemas y conversiones de unidades",
+              "1.1.1 Unidades fundamentales y derivadas",
+              "1.1.2 Sistema de unidades internacional, inglés y CGS",
+              "1.1.3 Conversiones de unidades",
+              "1.2 Cifras significativas",
+              "1.3 Análisis dimensional (consistencia)",
+              "1.4 Magnitud escalar y magnitud vectorial",
+              "1.5 Vectores en dos y en tres dimensiones",
+              "1.5.1 Componentes rectangulares",
+              "1.6 Operaciones con vectores",
+              "1.6.1 Suma y diferencia de vectores",
+              "1.6.2 Multiplicación de vectores"
+            ]
+          },
+          {
+            "id": "s01-u04-t02",
+            "numero": "II",
+            "nombre": "Movimiento en una dimensión y en un plano",
+            "competencia": "Resuelve problemas sobre fenómenos físicos en una dimensión y en un plano a partir de métodos cinemáticos.",
+            "estado": "pendiente",
+            "subtemas": [
+              "2.1 Movimiento unidimensional",
+              "2.1.1 Desplazamiento",
+              "2.1.2 Velocidad media e instantánea",
+              "2.1.3 Aceleración media e instantánea",
+              "2.1.4 Cuerpos en caída libre",
+              "2.2 Movimiento en un plano. Vectores de posición, velocidad y aceleración",
+              "2.2.1 Movimiento rectilíneo",
+              "2.2.2 Movimiento parabólico",
+              "2.2.3 Movimiento circular uniforme y uniformemente variado"
+            ]
+          },
+          {
+            "id": "s01-u04-t03",
+            "numero": "III",
+            "nombre": "Dinámica de la partícula, trabajo y energía",
+            "competencia": "Resuelve problemas sobre fenómenos físicos a partir de métodos dinámicos y energéticos.",
+            "estado": "pendiente",
+            "subtemas": [
+              "3.1 Leyes de Newton",
+              "3.1.1 Aplicaciones de las leyes de Newton",
+              "3.1.2 Fuerzas de fricción estática y dinámica",
+              "3.2 Trabajo y energía",
+              "3.2.1 Energía cinética y el teorema del trabajo-energía",
+              "3.3 Potencia",
+              "3.4 Energía potencial y conservación de la energía",
+              "3.5 Fuerzas conservativas y no conservativas"
+            ]
+          },
+          {
+            "id": "s01-u04-t04",
+            "numero": "IV",
+            "nombre": "Cantidad de movimiento, choques y Movimiento Armónico Simple",
+            "competencia": "Soluciona problemas de intercambio de energía, objetos extensos y movimientos vibratorios a partir de los conceptos de impulso, cantidad de movimiento y MAS.",
+            "estado": "pendiente",
+            "subtemas": [
+              "4.1 Impulso y cantidad de movimiento",
+              "4.2 Choques elásticos e inelásticos",
+              "4.3 Centro de masa de un sistema de partículas",
+              "4.4 Movimiento Armónico Simple (MAS)",
+              "4.4.1 Definición y elementos del MAS",
+              "4.4.2 Relación del MAS y el Movimiento Circular Simple"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Cálculo diferencial e integral",
+        "tipo": "fija",
+        "id": "s01-u05",
+        "evidencia": "oficial",
+        "fuente": "Programa de estudios oficial ESIT-IPN (PDF)",
+        "proposito": "Aplica modelos matemáticos con base en los fundamentos del cálculo diferencial e integral.",
+        "horasDocenteTotal": 72,
+        "horasAutonomasTotal": 24,
+        "evaluacion": [],
+        "bibliografia": [
+          "Prado y otros (2013). Cálculo diferencial para ingeniería. Pearson. México.",
+          "Prado y otros (2014). Cálculo integral para ingeniería. Pearson. México.",
+          "Purcell, Edwin J. (2007). Cálculo diferencial e integral, 9ª edición. Pearson. México.",
+          "Stewart, James (2018). Cálculo trascendentes tempranas, 8ª edición. Cengage Learning. México.",
+          "Thomas, George B. Jr. (2016). Cálculo una variable, 13ª edición. Pearson. México.",
+          "Zill, Dennis G. (2015). Matemáticas 1, Cálculo diferencial, 2ª edición. McGraw Hill. México.",
+          "Zill, Dennis G. (2015). Matemáticas 2, Cálculo integral, 2ª edición. McGraw Hill. México."
+        ],
+        "temasOficiales": [
+          {
+            "id": "s01-u05-t01",
+            "numero": "I",
+            "nombre": "Funciones y límites",
+            "competencia": "Realiza operaciones con límites de funciones a partir de las propiedades de las mismas.",
+            "horasDocente": 10,
+            "horasAutonomas": 3,
+            "estado": "pendiente",
+            "subtemas": [
+              "1.1 Funciones reales de una variable real",
+              "1.1.1 Definiciones de función, dominio, rango y gráfica",
+              "1.1.2 Catálogo de funciones",
+              "1.1.3 Operaciones con funciones",
+              "1.1.4 Modelación",
+              "1.2 Límites y continuidad",
+              "1.2.1 Límites puntuales, laterales y al infinito",
+              "1.2.2 Funciones continuas",
+              "1.2.3 Aplicación de límites a la ingeniería"
+            ]
+          },
+          {
+            "id": "s01-u05-t02",
+            "numero": "II",
+            "nombre": "La derivada y sus aplicaciones en la ingeniería",
+            "competencia": "Analiza los fenómenos reales y abstractos a partir de los criterios de optimización del cálculo.",
+            "horasDocente": 22,
+            "horasAutonomas": 7,
+            "estado": "pendiente",
+            "subtemas": [
+              "2.1 La derivada",
+              "2.1.1 La derivada como razón de cambio, interpretación geométrica",
+              "2.1.2 Propiedades de la derivada",
+              "2.1.3 Derivada de las operaciones elementales",
+              "2.1.4 Regla de la cadena y función inversa",
+              "2.1.5 Derivación implícita",
+              "2.1.6 Derivadas de orden superior",
+              "2.1.7 Aplicaciones de la derivada en la ingeniería",
+              "2.2 Valores extremos y gráficas",
+              "2.2.1 Máximos y mínimos",
+              "2.2.2 Criterio de la primera derivada",
+              "2.2.3 Concavidad y criterio de la segunda derivada",
+              "2.2.4 Gráficas con elementos de derivación",
+              "2.2.5 Optimización de funciones elementales",
+              "2.2.6 Aplicaciones de máximos y mínimos en la ingeniería"
+            ]
+          },
+          {
+            "id": "s01-u05-t03",
+            "numero": "III",
+            "nombre": "Derivadas de funciones trascendentes y diferenciales",
+            "competencia": "Resuelve funciones trascendentales y diferenciales a partir de las herramientas de cálculo.",
+            "horasDocente": 12,
+            "horasAutonomas": 4,
+            "estado": "pendiente",
+            "subtemas": [
+              "3.1 Funciones exponenciales y logarítmicas",
+              "3.1.1 Derivadas de funciones logarítmicas",
+              "3.1.2 Derivadas de funciones exponenciales",
+              "3.1.3 Derivada de las funciones inversas",
+              "3.1.4 Aplicaciones de la derivada de funciones exponenciales y logarítmicas en la ingeniería",
+              "3.2 Funciones trigonométricas",
+              "3.2.1 Límites de las funciones trigonométricas",
+              "3.2.2 Derivadas de las funciones trigonométricas",
+              "3.2.3 Funciones trigonométricas inversas",
+              "3.2.4 Aplicaciones de la derivada de funciones trigonométricas en la ingeniería",
+              "3.3 Diferenciales",
+              "3.3.1 Errores relativos y absolutos",
+              "3.3.2 Aproximaciones",
+              "3.3.3 Aplicaciones de las diferenciales a la ingeniería"
+            ]
+          },
+          {
+            "id": "s01-u05-t04",
+            "numero": "IV",
+            "nombre": "La integral y métodos de integración",
+            "competencia": "Resuelve modelos matemáticos a partir de las técnicas de integración.",
+            "horasDocente": 20,
+            "horasAutonomas": 7,
+            "estado": "pendiente",
+            "subtemas": [
+              "4.1 La integral",
+              "4.1.1 La antiderivada",
+              "4.1.2 Integral definida y área bajo una gráfica",
+              "4.1.3 Integral definida y sus propiedades",
+              "4.1.4 Teorema fundamental del cálculo",
+              "4.1.5 Integral indefinida",
+              "4.2 Técnicas de integración",
+              "4.2.1 Integrales por cambio de variable",
+              "4.2.2 Integración por sustitución trigonométrica",
+              "4.2.3 Integración por partes",
+              "4.2.4 Integración por fracciones parciales",
+              "4.2.5 Aplicaciones de las técnicas de integración a la ingeniería"
+            ]
+          },
+          {
+            "id": "s01-u05-t05",
+            "numero": "V",
+            "nombre": "Aplicaciones de la integral en la ingeniería",
+            "competencia": "Aplica la geometría espacial a partir de los distintos métodos de integración.",
+            "horasDocente": 8,
+            "horasAutonomas": 3,
+            "estado": "pendiente",
+            "subtemas": [
+              "5.1 Aplicaciones de la integral definida",
+              "5.1.1 Áreas entre curvas",
+              "5.1.2 Volumen de sólidos de revolución",
+              "5.1.3 Áreas de superficies de revolución",
+              "5.1.4 Métodos de arandelas y cascarones",
+              "5.1.5 Longitud de curvas",
+              "5.1.6 Aplicaciones de la integral a la ingeniería"
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Álgebra lineal",
+        "tipo": "fija",
+        "id": "s01-u06",
+        "evidencia": "por_confirmar",
+        "evaluacion": [],
+        "temasOficiales": [],
+        "notas": "Falta el temario oficial. No cargar contenido hasta tenerlo."
+      },
+      {
+        "nombre": "Fundamentos de programación",
+        "tipo": "fija",
+        "id": "s01-u07",
+        "evidencia": "por_confirmar",
+        "evaluacion": [],
+        "temasOficiales": [],
+        "notas": "Falta el temario oficial. No cargar contenido hasta tenerlo."
+      },
+      {
+        "nombre": "Métodos de acabados",
+        "tipo": "fija",
+        "verificar": true,
+        "id": "s01-u08",
+        "evidencia": "por_confirmar",
+        "evaluacion": [],
+        "temasOficiales": [],
+        "notas": "Falta el temario oficial. Además, esta unidad aparece repetida en primero y segundo semestre en la página de la ESIT; confirmar la denominación exacta en la tira del SAES."
+      }
     ]
   },
   {
