@@ -3,6 +3,7 @@ import fibrasQuimicas from "@/data/contenido/fibras-quimicas.json";
 import tejidosCaladaJacquard from "@/data/contenido/fundamentos-de-tejidos-de-calada-y-jacquard.json";
 import tejidosPunto from "@/data/contenido/fundamentos-de-tejidos-de-punto.json";
 import metodosAcabados from "@/data/contenido/metodos-de-acabados.json";
+import metodosConfeccion from "@/data/contenido/metodos-de-confeccion.json";
 import type { UnidadContenido } from "@/lib/types";
 
 const contenidoPorUnidad: Record<string, UnidadContenido> = {
@@ -11,6 +12,7 @@ const contenidoPorUnidad: Record<string, UnidadContenido> = {
   "fundamentos-de-tejidos-de-calada-y-jacquard": tejidosCaladaJacquard as UnidadContenido,
   "fundamentos-de-tejidos-de-punto": tejidosPunto as UnidadContenido,
   "metodos-de-acabados": metodosAcabados as UnidadContenido,
+  "metodos-de-confeccion": metodosConfeccion as UnidadContenido,
 };
 
 export function getContenidoUnidad(slugUnidad: string): UnidadContenido | undefined {

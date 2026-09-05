@@ -1,0 +1,45 @@
+{
+  "unidad": "Métodos de confección",
+  "temas": [
+    {
+      "slug": "herramientas-basicas",
+      "titulo": "Herramientas básicas de confección",
+      "definicion": "Conjunto de instrumentos manuales y máquinas utilizados en los procesos de corte y unión de piezas textiles para fabricar una prenda, desde herramientas simples como tijeras y alfileres hasta máquinas de coser industriales.",
+      "caracteristicas": [
+        "Las herramientas de corte incluyen tijeras de sastre, cortadoras circulares y cortadoras verticales de banda, usadas según el volumen de producción.",
+        "Las máquinas de coser industriales se clasifican según el tipo de puntada que producen: rectas, overlock (remalladoras) y de doble transporte, entre otras.",
+        "Otras herramientas de apoyo son el metro de costurera, la regla de patronaje, el gis o marcador de tela y la plancha de vapor para el acabado."
+      ]
+    },
+    {
+      "slug": "tipos-de-puntada",
+      "titulo": "Tipos de puntada",
+      "definicion": "Forma en que el hilo o los hilos se entrelazan para unir dos piezas de tela. El tipo de puntada determina la resistencia, elasticidad y apariencia de la costura, y se elige según el tipo de tela y la función de la unión.",
+      "caracteristicas": [
+        "La puntada recta (pespunte) usa dos hilos, uno superior y uno inferior, que se entrelazan dentro de la tela; es la más común en costura recta y de resistencia media-alta.",
+        "La puntada de cadeneta usa uno o más hilos que forman bucles consecutivos; es más elástica, pero puede deshacerse en cadena si se corta un extremo.",
+        "La puntada de overlock o sobrehilado envuelve el borde de la tela con varios hilos, evitando que se deshilache; se usa junto con la costura principal, no en su lugar."
+      ]
+    },
+    {
+      "slug": "costuras",
+      "titulo": "Costuras",
+      "definicion": "Unión resultante de coser dos o más piezas de tela siguiendo una puntada determinada. El tipo de costura describe cómo se colocan y rematan los bordes de tela antes y después de coser, no solo el tipo de puntada usada.",
+      "caracteristicas": [
+        "La costura simple o abierta une dos piezas por su derecho y deja el margen de costura abierto o rematado por separado.",
+        "La costura francesa encierra el margen de costura dentro de un doble pliegue, dejando un acabado limpio por ambos lados sin necesidad de rematar el borde.",
+        "La costura de seguridad combina una puntada de unión con un sobrehilado del margen en una sola operación, común en la confección industrial de prendas de punto."
+      ]
+    },
+    {
+      "slug": "proceso-de-confeccion",
+      "titulo": "Etapas del proceso de confección",
+      "definicion": "Secuencia general de operaciones para transformar la tela en una prenda terminada: diseño y patronaje, tendido y corte de la tela, ensamble (costura de las piezas), acabado de la prenda y control de calidad.",
+      "caracteristicas": [
+        "El patronaje traduce el diseño de la prenda en piezas planas (moldes) que se usan como plantilla para cortar la tela.",
+        "El tendido consiste en apilar varias capas de tela antes de cortar, para producir varias piezas iguales a la vez y reducir tiempo y desperdicio.",
+        "El acabado de la prenda incluye operaciones como pegado de botones, ojales, planchado final y colocación de etiquetas, previas al control de calidad y empaque."
+      ]
+    }
+  ]
+}
