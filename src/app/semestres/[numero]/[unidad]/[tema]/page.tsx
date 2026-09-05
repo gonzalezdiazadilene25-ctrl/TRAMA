@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import ProgresoSelector from "@/components/ProgresoSelector";
 import ApuntesEditor from "@/components/ApuntesEditor";
+import ResumenIA from "@/components/ResumenIA";
+import EvaluacionIA from "@/components/EvaluacionIA";
 import { getSemestre } from "@/lib/data";
 import { getContenidoUnidad } from "@/lib/contenido";
 import { slugify } from "@/lib/slug";
@@ -138,9 +140,9 @@ export default async function TemaPage({
 
       <ApuntesEditor semestre={semestre.numero} unidad={unidadSlug} tema={tema.slug} />
 
-      <div className="mb-6 rounded-2xl border border-dashed border-trama-borde p-4 text-sm text-trama-gris">
-        Resumen IA y Evaluación estarán disponibles en una fase posterior del proyecto.
-      </div>
+      <ResumenIA semestre={semestre.numero} unidad={unidadSlug} tema={tema} />
+
+      <EvaluacionIA semestre={semestre.numero} unidad={unidadSlug} tema={tema} />
 
       <div className="flex justify-between border-t border-trama-borde pt-4 text-sm">
         {anterior ? (

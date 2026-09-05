@@ -42,6 +42,20 @@ export interface UnidadContenido {
   temas: Tema[];
 }
 
+export interface ResumenIA {
+  conceptosClave: string[];
+  proceso: string;
+  datosParaMemorizar: string[];
+}
+
+export interface Reactivo {
+  pregunta: string;
+  opciones: string[];
+  respuestaCorrecta: number;
+  explicacion: string;
+  subtema: string;
+}
+
 export interface TrayectoriaSemestre {
   numero: number;
   unidades: string[];
