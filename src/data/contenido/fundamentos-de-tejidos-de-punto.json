@@ -1,0 +1,56 @@
+{
+  "unidad": "Fundamentos de tejidos de punto",
+  "temas": [
+    {
+      "slug": "la-malla",
+      "titulo": "La malla",
+      "nombreCientifico": "Unidad básica del tejido de punto",
+      "definicion": "El tejido de punto se construye a partir de mallas (bucles de hilo) entrelazadas entre sí, en lugar del entrecruzamiento perpendicular de dos sistemas de hilos que caracteriza al tejido de calada. Cada malla se forma pasando un bucle de hilo a través del bucle formado en la fila o columna anterior.",
+      "caracteristicas": [
+        "Al estar formado por mallas entrelazadas y no por hilos rígidamente cruzados, el tejido de punto es naturalmente más elástico que el tejido de calada.",
+        "Las columnas verticales de mallas se llaman columnas (o 'wales') y las filas horizontales se llaman pasadas (o 'courses').",
+        "Se produce en máquinas de tejer de punto, circulares o rectilíneas, o de forma manual con agujas."
+      ]
+    },
+    {
+      "slug": "punto-por-trama",
+      "titulo": "Tejido de punto por trama",
+      "definicion": "Tipo de tejido de punto en el que cada pasada se forma con un solo hilo continuo que recorre transversalmente el ancho de la tela, entrelazándose consigo mismo malla por malla. Es el método más común, tanto en tejido manual como en máquinas circulares.",
+      "caracteristicas": [
+        "Si se rompe un hilo o se suelta una malla, el tejido puede 'correrse' (deshacerse en cadena), porque toda la pasada depende de un mismo hilo continuo.",
+        "Permite tejer en forma tubular, sin costuras laterales, en máquinas circulares.",
+        "Incluye estructuras como el jersey, el rib y el interlock."
+      ]
+    },
+    {
+      "slug": "punto-por-urdimbre",
+      "titulo": "Tejido de punto por urdimbre",
+      "definicion": "Tipo de tejido de punto en el que cada malla de una misma pasada se forma con un hilo distinto, cada uno alimentado desde su propio carrete en la urdimbre, y los hilos se desplazan en zigzag para entrelazarse con las mallas de las pasadas vecinas. Se produce exclusivamente en máquinas.",
+      "caracteristicas": [
+        "Al no depender de un solo hilo continuo por pasada, no se 'corre' como el tejido de punto por trama.",
+        "Produce telas más estables dimensionalmente y con menor elasticidad que el tejido por trama.",
+        "Los tipos más comunes son el tricot y el raschel."
+      ]
+    },
+    {
+      "slug": "punto-jersey",
+      "titulo": "Punto jersey (punto liso)",
+      "definicion": "Estructura básica del tejido de punto por trama, formada enteramente por mallas de derecho en el lado visible de la tela, lo que produce una cara lisa y brillante y una cara posterior con textura de mallas de revés.",
+      "caracteristicas": [
+        "Es la estructura de punto más simple y de mayor uso industrial, junto con el tafetán en tejido de calada.",
+        "Tiende a enrollarse en los bordes si no se remata, por el desbalance de tensión entre sus dos caras.",
+        "Se usa en playeras (camisetas), ropa interior y prendas de punto en general."
+      ]
+    },
+    {
+      "slug": "punto-rib",
+      "titulo": "Punto rib (elástico)",
+      "definicion": "Estructura de tejido de punto por trama formada por columnas alternadas de mallas de derecho y de revés visibles en ambas caras de la tela, lo que le da una elasticidad transversal mucho mayor que la del punto jersey.",
+      "caracteristicas": [
+        "Se usa principalmente en puños, cuellos y pretinas, donde se necesita que la prenda recupere su forma después de estirarse.",
+        "No se enrolla en los bordes, a diferencia del punto jersey, gracias al balance entre sus dos caras.",
+        "Las variantes más comunes son 1x1 y 2x2, según cuántas columnas de derecho y revés se alternan."
+      ]
+    }
+  ]
+}
