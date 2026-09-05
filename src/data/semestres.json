@@ -4,6 +4,7 @@
     "creditos": 49,
     "porcentaje": 11.67,
     "enfoque": "Base científica y tecnológica. Prioriza cálculo, álgebra, física y programación.",
+    "imagen": "sem-01.jpg",
     "unidades": [
       {
         "nombre": "Fibras naturales",
@@ -469,6 +470,7 @@
     "creditos": 45,
     "porcentaje": 10.71,
     "enfoque": "Continuidad matemática y física; aparecen más procesos textiles y comunicación técnica.",
+    "imagen": "sem-02.jpg",
     "unidades": [
       { "nombre": "Fibras químicas", "tipo": "fija" },
       { "nombre": "Métodos de acabados", "tipo": "fija", "verificar": true },
@@ -484,6 +486,7 @@
     "creditos": 50,
     "porcentaje": 11.9,
     "enfoque": "Primer núcleo duro de integración: química, máquinas, fluidos, ecuaciones y manufactura.",
+    "imagen": "sem-03.jpg",
     "unidades": [
       { "nombre": "Química textil básica", "tipo": "fija" },
       { "nombre": "Fundamentos de manufactura de prendas", "tipo": "fija" },
@@ -500,6 +503,7 @@
     "creditos": 48,
     "porcentaje": 11.43,
     "enfoque": "Se conectan ciencias, diseño mecánico, análisis de datos y decisiones industriales.",
+    "imagen": "sem-04.jpg",
     "unidades": [
       { "nombre": "Fisicoquímica textil", "tipo": "fija" },
       { "nombre": "Diseño de mecanismos por computadora", "tipo": "fija" },
@@ -516,6 +520,7 @@
     "creditos": 53,
     "porcentaje": 12.62,
     "enfoque": "Mayor carga de créditos e inicio de especialización. Exige organización y seguimiento semanal.",
+    "imagen": "sem-05.jpg",
     "unidades": [
       { "nombre": "Gestión ambiental y tecnologías limpias", "tipo": "fija" },
       { "nombre": "Aire acondicionado y refrigeración", "tipo": "fija" },
@@ -531,6 +536,7 @@
     "creditos": 43,
     "porcentaje": 10.24,
     "enfoque": "La formación se vuelve más aplicada: materiales, programación, costos y especialidad.",
+    "imagen": "sem-06.jpg",
     "unidades": [
       { "nombre": "Legislación aduanera", "tipo": "fija" },
       { "nombre": "Reología aplicada a los textiles", "tipo": "fija" },
@@ -545,6 +551,7 @@
     "creditos": 50,
     "porcentaje": 11.9,
     "enfoque": "Concentración alta de especialidad, calidad, automatización y tecnologías emergentes.",
+    "imagen": "sem-07.jpg",
     "unidades": [
       { "nombre": "Sistemas de gestión de calidad", "tipo": "fija" },
       { "nombre": "Primera unidad del eje optativo", "tipo": "eje" },
@@ -560,6 +567,7 @@
     "creditos": 42,
     "porcentaje": 10.0,
     "enfoque": "Predominan la producción y las unidades de trayectoria; los proyectos suelen crecer en complejidad.",
+    "imagen": "sem-08.jpg",
     "unidades": [
       { "nombre": "Segunda unidad del eje optativo", "tipo": "eje" },
       { "nombre": "Programación y control de la producción", "tipo": "fija" },
@@ -574,6 +582,7 @@
     "creditos": 40,
     "porcentaje": 9.52,
     "enfoque": "Cierre integrador: investigación, medición, normas, ensayos y administración de proyectos.",
+    "imagen": "sem-09.jpg",
     "unidades": [
       { "nombre": "Procesos textiles", "tipo": "fija" },
       { "nombre": "Metrología, normalización y ensayos textiles", "tipo": "fija" },

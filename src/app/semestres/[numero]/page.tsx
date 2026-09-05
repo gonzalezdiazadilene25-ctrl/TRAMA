@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -33,12 +34,31 @@ export default async function SemestrePage({
         ]}
       />
 
-      <div className="mb-6 rounded-3xl bg-[var(--acento)] p-6 text-white shadow-sm">
-        <h1 className="text-2xl font-bold">{semestre.numero}.º semestre</h1>
-        <p className="mt-1 text-sm text-white/80">
-          {semestre.creditos} créditos · {semestre.porcentaje}% del total de la carrera
-        </p>
-        <p className="mt-3">{semestre.enfoque}</p>
+      <div className="relative mb-6 overflow-hidden rounded-3xl p-6 text-white shadow-sm">
+        {semestre.imagen && (
+          <Image
+            src={`/img/${semestre.imagen}`}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="(min-width: 640px) 768px, 100vw"
+            priority
+          />
+        )}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(160deg, color-mix(in srgb, var(--acento) 88%, transparent), color-mix(in srgb, var(--acento) 65%, transparent))",
+          }}
+        />
+        <div className="relative">
+          <h1 className="text-2xl font-bold">{semestre.numero}.º semestre</h1>
+          <p className="mt-1 text-sm text-white/80">
+            {semestre.creditos} créditos · {semestre.porcentaje}% del total de la carrera
+          </p>
+          <p className="mt-3">{semestre.enfoque}</p>
+        </div>
       </div>
 
       <h2 className="mb-3 text-lg font-semibold">Unidades de aprendizaje</h2>

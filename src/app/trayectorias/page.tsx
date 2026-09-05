@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumb";
 import { trayectorias } from "@/lib/data";
 import { getTrayectoriaColor } from "@/lib/theme";
@@ -23,15 +24,30 @@ export default function TrayectoriasPage() {
         {trayectorias.map((t) => {
           const color = getTrayectoriaColor(t.id);
           return (
-            <section
-              key={t.id}
-              id={t.id}
-              className="overflow-hidden rounded-3xl shadow-sm"
-              style={{ background: `linear-gradient(155deg, ${color}, ${color}cc)` }}
-            >
-              <div className="p-6 text-white">
-                <h2 className="text-xl font-bold">{t.nombre}</h2>
-                <p className="mt-1 text-sm text-white/85">{t.resumen}</p>
+            <section key={t.id} id={t.id} className="overflow-hidden rounded-3xl shadow-sm">
+              <div className="relative h-32">
+                {t.imagen && (
+                  <Image
+                    src={`/img/${t.imagen}`}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 640px) 768px, 100vw"
+                  />
+                )}
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background: `linear-gradient(to top, ${color}, color-mix(in srgb, ${color} 35%, transparent) 75%)`,
+                  }}
+                />
+                <h2 className="absolute bottom-4 left-6 text-xl font-bold text-white drop-shadow-sm">
+                  {t.nombre}
+                </h2>
+              </div>
+
+              <div className="p-6 text-white" style={{ background: color }}>
+                <p className="text-sm text-white/85">{t.resumen}</p>
 
                 <div className="mt-5 flex flex-col gap-3">
                   {t.semestres.map((s) => (

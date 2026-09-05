@@ -40,6 +40,7 @@ export interface Semestre {
   creditos: number;
   porcentaje: number;
   enfoque: string;
+  imagen?: string;
   unidades: Unidad[];
 }
 
@@ -95,5 +96,6 @@ export interface Trayectoria {
   id: string;
   nombre: string;
   resumen: string;
+  imagen?: string;
   semestres: TrayectoriaSemestre[];
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import { semestres } from "@/lib/data";
@@ -23,13 +24,23 @@ export default function SemestresPage() {
               href={`/semestres/${s.numero}`}
               className="group overflow-hidden rounded-3xl border border-trama-borde bg-trama-superficie shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
             >
-              <div
-                className="relative flex h-28 items-end p-4"
-                style={{
-                  background: `linear-gradient(to top, ${color}, ${color}99 60%, ${color}33)`,
-                }}
-              >
-                <span className="text-2xl font-bold text-white drop-shadow-sm">
+              <div className="relative flex h-28 items-end overflow-hidden p-4">
+                {s.imagen && (
+                  <Image
+                    src={`/img/${s.imagen}`}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 640px) 50vw, 100vw"
+                  />
+                )}
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background: `linear-gradient(to top, ${color}, ${color}99 55%, ${color}22)`,
+                  }}
+                />
+                <span className="relative text-2xl font-bold text-white drop-shadow-sm">
                   {s.numero}.º semestre
                 </span>
               </div>

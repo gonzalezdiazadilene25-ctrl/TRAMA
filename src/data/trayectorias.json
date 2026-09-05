@@ -3,6 +3,7 @@
     "id": "hilados",
     "nombre": "Hilados",
     "resumen": "Fibras, producción de hilo, maquinaria, control de calidad, reciclaje y geotextiles.",
+    "imagen": "tray-hilados.jpg",
     "semestres": [
       { "numero": 5, "unidades": ["Análisis de hilos"] },
       { "numero": 6, "unidades": ["Cinemática de las máquinas de hilados", "Hilatura Open End"] },
@@ -36,6 +37,7 @@
     "id": "tejidos",
     "nombre": "Tejidos",
     "resumen": "Telares, tejido plano y de punto, Jacquard, textiles técnicos, CAD y producción.",
+    "imagen": "tray-tejidos.jpg",
     "semestres": [
       { "numero": 5, "unidades": ["Análisis y cálculo de producción en tejidos"] },
       { "numero": 6, "unidades": ["Control de calidad en los tejidos", "Fundamentos de textiles técnicos"] },
@@ -69,6 +71,7 @@
     "id": "acabados",
     "nombre": "Acabados",
     "resumen": "Química de tintura, color, estampado, procesos húmedos y acabados funcionales.",
+    "imagen": "tray-acabados.jpg",
     "semestres": [
       { "numero": 5, "unidades": ["Pretratamiento de hilos y géneros textiles"] },
       { "numero": 6, "unidades": ["Proceso de tintura de fibras", "Estampado textil"] },
@@ -102,6 +105,7 @@
     "id": "confeccion",
     "nombre": "Confección",
     "resumen": "Corte, manufactura de prendas, maquinaria, organización de planta, costos y producción.",
+    "imagen": "tray-confeccion.jpg",
     "semestres": [
       { "numero": 5, "unidades": ["Corte industrial"] },
       {
