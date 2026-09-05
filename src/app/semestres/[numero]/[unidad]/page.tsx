@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
+import TemasList from "@/components/TemasList";
 import { getSemestre } from "@/lib/data";
 import { getContenidoUnidad } from "@/lib/contenido";
 import { slugify } from "@/lib/slug";
@@ -36,21 +36,11 @@ export default async function UnidadPage({
       {contenido ? (
         <>
           <h2 className="mb-3 text-lg font-semibold">Temas</h2>
-          <ul className="flex flex-col gap-3">
-            {contenido.temas.map((t) => (
-              <li key={t.slug}>
-                <Link
-                  href={`/semestres/${semestre.numero}/${unidadSlug}/${t.slug}`}
-                  className="flex items-center justify-between rounded-2xl border border-trama-borde bg-trama-superficie p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[var(--acento)] hover:shadow-md"
-                >
-                  <span>{t.titulo}</span>
-                  {t.nombreCientifico && (
-                    <span className="text-sm italic text-trama-gris">{t.nombreCientifico}</span>
-                  )}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <TemasList
+            temas={contenido.temas}
+            semestre={semestre.numero}
+            unidadSlug={unidadSlug}
+          />
         </>
       ) : (
         <div className="rounded-2xl border border-dashed border-trama-borde bg-trama-superficie p-5 text-trama-gris">

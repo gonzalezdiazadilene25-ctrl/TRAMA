@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Breadcrumb from "@/components/Breadcrumb";
+import ProgresoSelector from "@/components/ProgresoSelector";
+import ApuntesEditor from "@/components/ApuntesEditor";
 import { getSemestre } from "@/lib/data";
 import { getContenidoUnidad } from "@/lib/contenido";
 import { slugify } from "@/lib/slug";
@@ -38,10 +40,12 @@ export default async function TemaPage({
         ]}
       />
 
-      <div className="mb-6 rounded-3xl bg-[var(--acento)] p-6 text-white shadow-sm">
+      <div className="mb-5 rounded-3xl bg-[var(--acento)] p-6 text-white shadow-sm">
         <h1 className="text-2xl font-bold">{tema.titulo}</h1>
         {tema.nombreCientifico && <p className="italic text-white/80">{tema.nombreCientifico}</p>}
       </div>
+
+      <ProgresoSelector semestre={semestre.numero} unidad={unidadSlug} tema={tema.slug} />
 
       <section className="mb-5 rounded-2xl border border-trama-borde bg-trama-superficie p-5 shadow-sm">
         <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-[var(--acento)]">
@@ -132,9 +136,10 @@ export default async function TemaPage({
         </p>
       )}
 
+      <ApuntesEditor semestre={semestre.numero} unidad={unidadSlug} tema={tema.slug} />
+
       <div className="mb-6 rounded-2xl border border-dashed border-trama-borde p-4 text-sm text-trama-gris">
-        Mis apuntes, Resumen IA y Evaluación estarán disponibles en las siguientes fases del
-        proyecto.
+        Resumen IA y Evaluación estarán disponibles en una fase posterior del proyecto.
       </div>
 
       <div className="flex justify-between border-t border-trama-borde pt-4 text-sm">
